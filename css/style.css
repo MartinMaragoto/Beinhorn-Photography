@@ -112,15 +112,18 @@ li {
 
 .titulo-seccion {
   margin: 0 auto;
+  font-size: 2.5vw;
 }
 
 .subtitulo1 {
   text-align: justify;
   margin-top: 2.9em;
+  font-size: 2vw;
 }
 
 .parrafo1 {
   text-align: justify;
+  font-size: 1.5vw;
 }
 
 /*Carrusel de Bootstrap*/
@@ -168,7 +171,7 @@ li {
 
 /*Fondo de bebe rugiendo*/
 .leona-container {
-  height: 110em;
+  background-image: url("imagenes/lulu-roar.png");
 }
 
 .lulu-ruge {
@@ -273,6 +276,26 @@ h2 {
   .carousel {
     max-width: 100px;
   }
+
+  .titulo-seccion {
+    font-size: 3.5vw;
+  }
+
+  .subtitulo1 {
+    font-size: 3vw;
+  }
+
+  .parrafo1 {
+    font-size: 2.5vw;
+  }
+
+  .joven-texto {
+    width: 100%;
+  }
+
+  .fotografa {
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 461px) and (max-width: 600px) {
   .titulo-container {
@@ -297,6 +320,26 @@ h2 {
 
   .carousel {
     max-width: 150px;
+  }
+
+  .titulo-seccion {
+    font-size: 3vw;
+  }
+
+  .subtitulo1 {
+    font-size: 2.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 2vw;
+  }
+
+  .joven-texto {
+    width: 80%;
+  }
+
+  .fotografa {
+    width: 55%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 741px) {
@@ -323,6 +366,26 @@ h2 {
   .carousel {
     max-width: 190px;
   }
+
+  .titulo-seccion {
+    font-size: 3vw;
+  }
+
+  .subtitulo1 {
+    font-size: 2.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 2vw;
+  }
+
+  .joven-texto {
+    width: 75%;
+  }
+
+  .fotografa {
+    width: 65%;
+  }
 }
 @media only screen and (min-width: 742px) and (max-width: 840px) {
   .titulo-container {
@@ -344,6 +407,14 @@ h2 {
   .carousel {
     max-width: 260px;
   }
+
+  .joven-texto {
+    width: 70%;
+  }
+
+  .fotografa {
+    width: 70%;
+  }
 }
 @media only screen and (min-width: 841px) and (max-width: 1000px) {
   .titulo {
@@ -360,6 +431,14 @@ h2 {
 
   .carousel {
     max-width: 340px;
+  }
+
+  .joven-texto {
+    width: 65%;
+  }
+
+  .fotografa {
+    width: 75%;
   }
 }
 

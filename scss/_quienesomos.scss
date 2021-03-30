@@ -20,13 +20,16 @@ padding: 5em;
   }
   .titulo-seccion {
     margin: 0 auto;
+    font-size: 2.5vw;
   }
   .subtitulo1 {
    text-align: justify;
    margin-top: 2.9em;
+   font-size: 2vw;
   }
   .parrafo1 {
    text-align: justify;
+   font-size: 1.5vw;
   }
 
 /*Carrusel de Bootstrap*/
@@ -66,9 +69,7 @@ flex-direction: row;
   max-height: 100%;
 }
 
-.fotografa-container {
- 
-}
+
 .fotografa {
   width: 85%;
 }
@@ -77,8 +78,10 @@ flex-direction: row;
 
 
 .leona-container {
-  height: 110em;
+ background-image: url('imagenes/lulu-roar.png');
+
 }
+
 .lulu-ruge {
   position: sticky;
   top: 0;

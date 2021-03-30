@@ -20,7 +20,22 @@
 .carousel {
     max-width: 100px;
 }
+.titulo-seccion {
+  font-size: 3.5vw;
+}
+.subtitulo1 {
+ font-size: 3vw;
+}
+.parrafo1 {
+ font-size: 2.5vw;
+}
+.joven-texto {
+  width: 100%;
 
+}
+.fotografa {
+  width: 50%;
+}
 
     }
 
@@ -50,7 +65,26 @@
 
         max-width: 150px;
        }
-       
+
+       .titulo-seccion {
+        font-size: 3.0vw;
+      }
+      .subtitulo1 {
+       font-size: 2.5vw;
+      }
+      .parrafo1 {
+       font-size: 2vw;
+      }
+
+       .joven-texto {
+        width: 80%;
+  
+      }
+       .fotografa {
+        width: 55%;
+      }
+
+
       }
     
     @media only screen and (min-width: 600px) 
@@ -77,7 +111,24 @@
 
         max-width: 190px;
        }
-       
+
+       .titulo-seccion {
+        font-size: 3.0vw;
+      }
+      .subtitulo1 {
+       font-size: 2.5vw;
+      }
+      .parrafo1 {
+       font-size: 2vw;
+      }
+
+       .joven-texto {
+        width: 75%;
+  
+      }
+       .fotografa {
+        width: 65%;
+      }
           
     }
     
@@ -100,6 +151,13 @@
         .carousel {
             max-width: 260px;
         }
+        .joven-texto {
+          width: 70%;
+    
+        }
+        .fotografa {
+          width: 70%;
+        }
         
     }
     @media only screen and (min-width: 841px) 
@@ -120,6 +178,13 @@
         .carousel {
             max-width: 340px; 
 
+          }
+
+          .joven-texto {
+            width: 65%;
+          }
+        .fotografa {
+            width: 75%;
           }
       
     }
