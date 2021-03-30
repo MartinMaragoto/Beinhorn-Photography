@@ -1,0 +1,88 @@
+/*-----QUIENES SOMOS-----*/
+
+
+.texto-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+background: rgb(255, 255, 255);
+border-radius: 1em;
+border: 1em solid rgb(255, 204, 204);
+padding: 5em;
+}
+
+  /* Texto informativo*/
+
+  .float-text {
+    width: 50%;
+    max-height: 100%;
+  }
+  .titulo-seccion {
+    margin: 0 auto;
+  }
+  .subtitulo1 {
+   text-align: justify;
+   margin-top: 2.9em;
+  }
+  .parrafo1 {
+   text-align: justify;
+  }
+
+/*Carrusel de Bootstrap*/
+
+.carousel {
+  max-width: 400px;
+  float: left;
+  padding-top: 10em;
+  padding-right: 2em;
+}
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+    z-index: $zind;
+  }
+  
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}  
+/*SOBRE NOSOTROS*/
+.joven-fotografa {
+background: rgb(255, 255, 255);
+border-radius: 1em;
+border: 1em solid rgb(255, 204, 204);
+padding: 4em;
+display: flex;
+flex-direction: row;
+
+}
+.joven-texto {
+  width: 60%;
+  max-height: 100%;
+}
+
+.fotografa-container {
+ 
+}
+.fotografa {
+  width: 85%;
+}
+
+  /*Fondo de bebe rugiendo*/
+
+
+.leona-container {
+  height: 110em;
+}
+.lulu-ruge {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+}
