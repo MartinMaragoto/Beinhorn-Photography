@@ -1,0 +1,43 @@
+
+El desarrollo de la página de fotografía Beinhorn incluye:
+- Diseño estético y funcional 
+- Organización y mejora de SEO (Modificación y adaptación de factores internos para el posicionamiento en los buscadores web)
+- Responsive Design (que su página se adapte a todo tipo de dispositivos: Mobile,tablet,Desktop,Pantallas)
+- Maquetado y estructura preparada para ser mantenible y actualizable en el tiempo.
+- Integración de protocolos para que la web se adapte a las distintas redes sociales y muestre un formato correcto al compartirla vía whatsapp, twitter, facebook, linkedin, etc
+- Consideraciones de accesibilidad y usabilidad. 
+- Flujo y funciones para que se pueda comprar en la plataforma el Ebook (con medios de pago/medios de envio) o link con redireccion a datos de contacto y pago para adquirir el 
+  acceso al drive del mismo.
+
+Tiempos de desarrollo y flujo de trabajo: 
+Normalmente realizo una charla y revisión inicial para recopilar todos los archivos, accesos, y afirmar los conceptos de la idea, el objetivo que tengan sobre la web y unirnos 
+en los criterios.
+Luego a los 15 días podemos tener una primera revisión para afinar detalles, modificar secciones, cambiar estructuras que al verlas en web no terminan de convencer etc. 
+Al día 25 se realizará la entrega final con una previa muestra. (Se entrega el .zip con todo el código realizado + subida al server por FTP o cPanel dependiendo del hosting que tengan) 
+Webinar para la auto-administración del sitio 
+Obviamente entre medio de esto podemos coordinar calls, daylis, sync o contacto para evacuar dudas o preguntas, etc.
+
+Valor: $30.000 argentinos.
+ACLARACIONES: 
+No incluye hosting y dominio.
+Todo el material gráfico,texto y acceso a la cuenta  será proporcionado por el cliente.
+Forma de Pago:
+Adelanto 50% - Saldo restante al entregar la web finalizada
+Se realiza Factura C.
+A su disposición. 
+¡Muchas gracias!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

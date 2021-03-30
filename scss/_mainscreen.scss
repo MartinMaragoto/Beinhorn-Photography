@@ -1,0 +1,103 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../imagenes/tetete.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    font-size: 10px;
+  }
+  
+
+.titulo-container {
+
+  position: absolute;
+  top: 7em;
+  right: 1em;
+  text-align: right;
+}
+  .titulo {
+  font-family: 'Tangerine', cursive;
+  font-weight:500 ;
+  color: rgb(100, 28, 40);
+  z-index: 9;
+  font-size: 3em;
+  object-fit: contain;
+  }
+  
+  li {
+    margin: 0 1em 0 1em;
+}
+
+.panel1-container {
+  float: right;
+  width: 25%;
+  height: auto;
+  margin-bottom: 4em;
+}
+.panel1 {
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+  /*LOGO BEINHORN*/
+  
+  .diafragma-div {
+    position: absolute;
+    width: 10%;
+    top: 11em;
+    right: 0em;
+    z-index: 9;
+
+    .diafragma {
+      max-width: 100%;
+      height: auto;
+    }
+
+}
+  .diafragma-div :hover {
+    transform: rotate(360deg);
+    transition: transform 3s;
+}
+  .bph-div {
+    position: absolute;
+    top: 13.7em;
+    right: 4.3em;
+    z-index: 9;
+  }
+  .bph {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*Navbar*/
+  
+  
+  .container-fluid {
+   
+    height: 70px;
+    font-size: 1.5em;
+    font-family: 'Bad Script', cursive;
+    position: absolute;
+    top: 0em;
+    z-index: 8;
+  }
+  .navbar {
+    padding: 0px;
+  } 
+
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  .navbar-brand {
+    padding-left: 0.85em;
+  }
+
+  
+
+  
+   
+    
+   
+  

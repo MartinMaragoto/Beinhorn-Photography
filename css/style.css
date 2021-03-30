@@ -1,0 +1,366 @@
+body {
+  background-color: white;
+  background-image: url(../imagenes/tetete.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  font-size: 10px;
+}
+
+.titulo-container {
+  position: absolute;
+  top: 7em;
+  right: 1em;
+  text-align: right;
+}
+
+.titulo {
+  font-family: "Tangerine", cursive;
+  font-weight: 500;
+  color: #641c28;
+  z-index: 9;
+  font-size: 3em;
+  object-fit: contain;
+}
+
+li {
+  margin: 0 1em 0 1em;
+}
+
+.panel1-container {
+  float: right;
+  width: 25%;
+  height: auto;
+  margin-bottom: 4em;
+}
+
+.panel1 {
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+/*LOGO BEINHORN*/
+.diafragma-div {
+  position: absolute;
+  width: 10%;
+  top: 11em;
+  right: 0em;
+  z-index: 9;
+}
+.diafragma-div .diafragma {
+  max-width: 100%;
+  height: auto;
+}
+
+.diafragma-div :hover {
+  transform: rotate(360deg);
+  transition: transform 3s;
+}
+
+.bph-div {
+  position: absolute;
+  top: 13.7em;
+  right: 4.3em;
+  z-index: 9;
+}
+
+.bph {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Navbar*/
+.container-fluid {
+  height: 70px;
+  font-size: 1.5em;
+  font-family: "Bad Script", cursive;
+  position: absolute;
+  top: 0em;
+  z-index: 8;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  padding-left: 0.85em;
+}
+
+/*-----QUIENES SOMOS-----*/
+.texto-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 1em;
+  border: 1em solid #ffcccc;
+  padding: 5em;
+}
+
+/* Texto informativo*/
+.float-text {
+  width: 50%;
+  max-height: 100%;
+}
+
+.titulo-seccion {
+  margin: 0 auto;
+}
+
+.subtitulo1 {
+  text-align: justify;
+  margin-top: 2.9em;
+}
+
+.parrafo1 {
+  text-align: justify;
+}
+
+/*Carrusel de Bootstrap*/
+.carousel {
+  max-width: 400px;
+  float: left;
+  padding-top: 10em;
+  padding-right: 2em;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  z-index: 8;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*SOBRE NOSOTROS*/
+.joven-fotografa {
+  background: white;
+  border-radius: 1em;
+  border: 1em solid #ffcccc;
+  padding: 4em;
+  display: flex;
+  flex-direction: row;
+}
+
+.joven-texto {
+  width: 60%;
+  max-height: 100%;
+}
+
+.fotografa {
+  width: 85%;
+}
+
+/*Fondo de bebe rugiendo*/
+.leona-container {
+  height: 110em;
+}
+
+.lulu-ruge {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/*----- GALERIA-----*/
+.tituloGaleria {
+  display: flex;
+  width: 100%;
+  font-style: italic;
+  text-align: justify;
+  font-size: 25px;
+  z-index: 8;
+}
+
+.texto {
+  display: flex;
+  z-index: 9;
+  font-size: 1rem;
+}
+
+.recuadro2 {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 1em;
+  border: 1em solid #ffcccc;
+}
+
+.galeria {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  z-index: 8;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.contenido-galeria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-----RESERVA TU SESION-----*/
+/* Redes sociales*/
+h2 {
+  font-style: italic;
+  font-size: 25px;
+  text-decoration: underline;
+  z-index: 8;
+}
+
+.animation-container {
+  background: white;
+  border-radius: 1em;
+  border: 1em solid #ffcccc;
+}
+
+.animation-container :hover {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+/* -----QUERY MEDIA-----*/
+@media only screen and (max-width: 460px) {
+  .titulo-container {
+    top: 6em;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+  }
+
+  .diafragma-div {
+    top: 8em;
+  }
+
+  .diafragma {
+    width: 90%;
+  }
+
+  .bph {
+    width: 25%;
+  }
+
+  .carousel {
+    max-width: 100px;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 600px) {
+  .titulo-container {
+    top: 6em;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+  }
+
+  .diafragma {
+    width: 90%;
+  }
+
+  .diafragma-div {
+    top: 8em;
+  }
+
+  .bph {
+    width: 50%;
+  }
+
+  .carousel {
+    max-width: 150px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 741px) {
+  .titulo-container {
+    top: 6em;
+  }
+
+  .titulo {
+    font-size: 1.8em;
+  }
+
+  .diafragma {
+    max-width: 90%;
+  }
+
+  .diafragma-div {
+    top: 8.5em;
+  }
+
+  .bph {
+    width: 50%;
+  }
+
+  .carousel {
+    max-width: 190px;
+  }
+}
+@media only screen and (min-width: 742px) and (max-width: 840px) {
+  .titulo-container {
+    top: 6.5em;
+  }
+
+  .titulo {
+    font-size: 2em;
+  }
+
+  .diafragma-div {
+    top: 9em;
+  }
+
+  .bph {
+    width: 60%;
+  }
+
+  .carousel {
+    max-width: 260px;
+  }
+}
+@media only screen and (min-width: 841px) and (max-width: 1000px) {
+  .titulo {
+    font-size: 2.5em;
+  }
+
+  .diafragma-div {
+    top: 10em;
+  }
+
+  .bph {
+    width: 75%;
+  }
+
+  .carousel {
+    max-width: 340px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
