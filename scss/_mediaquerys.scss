@@ -18,23 +18,39 @@
     width: 25%;
   }
 .carousel {
-    max-width: 100px;
+    max-width: 160px;
+}
+.texto-container {
+padding: 0.5em;
+
 }
 .titulo-seccion {
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 .subtitulo1 {
- font-size: 3vw;
+ font-size: 3.5vw;
 }
 .parrafo1 {
- font-size: 2.5vw;
+ font-size: 3vw;
 }
+
+.joven-fotografa {
+  display: flex;
+  flex-direction: column;
+}
+
 .joven-texto {
   width: 100%;
 
 }
+.fotografa-container {
+display: flex;
+justify-content: center;
+}
 .fotografa {
   width: 50%;
+    
+  
 }
 
     }
@@ -63,25 +79,32 @@
       }
        .carousel {
 
-        max-width: 150px;
+        max-width: 190px;
        }
-
+       .texto-container {
+        padding: 0.5em;
+       }
        .titulo-seccion {
-        font-size: 3.0vw;
+        font-size: 3.5vw;
       }
       .subtitulo1 {
-       font-size: 2.5vw;
+       font-size: 3vw;
       }
       .parrafo1 {
-       font-size: 2vw;
+       font-size: 2.5vw;
       }
-
+      .joven-fotografa {
+        padding: 2em;
+       }
        .joven-texto {
         width: 80%;
   
       }
+      .fotografa-container {
+       padding-top: 5em;
+        }
        .fotografa {
-        width: 55%;
+        width: 65%;
       }
 
 
@@ -109,9 +132,12 @@
       }
        .carousel {
 
-        max-width: 190px;
+        max-width: 220px;
        }
 
+       .texto-container {
+        padding: 1em;
+       }
        .titulo-seccion {
         font-size: 3.0vw;
       }
@@ -121,11 +147,9 @@
       .parrafo1 {
        font-size: 2vw;
       }
-
-       .joven-texto {
-        width: 75%;
-  
-      }
+      .fotografa-container {
+        padding-top: 5em;
+         }
        .fotografa {
         width: 65%;
       }
@@ -150,6 +174,18 @@
       }
         .carousel {
             max-width: 260px;
+        }
+        .texto-container {
+          padding: 2em;
+         }
+         .titulo-seccion {
+          font-size: 2.8vw;
+        }
+        .subtitulo1 {
+         font-size: 2.3vw;
+        }
+        .parrafo1 {
+         font-size: 1.8vw;
         }
         .joven-texto {
           width: 70%;
