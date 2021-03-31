@@ -31,7 +31,7 @@ li {
   float: right;
   width: 25%;
   height: auto;
-  margin-bottom: 4em;
+  margin-bottom: 8em;
 }
 
 .panel1 {
@@ -100,7 +100,7 @@ li {
   height: 100%;
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
   padding: 5em;
 }
 
@@ -114,17 +114,20 @@ li {
 .titulo-seccion {
   text-align: center;
   font-size: 2.5vw;
+  font-family: "Bad Script";
 }
 
 .subtitulo1 {
   text-align: center;
   margin-top: 2.9em;
   font-size: 2vw;
+  font-family: "Bad Script";
 }
 
 .parrafo1 {
   text-align: justify;
   font-size: 1.5vw;
+  font-family: "Bad Script";
 }
 
 /*Carrusel de Bootstrap*/
@@ -153,7 +156,7 @@ li {
 .joven-fotografa {
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
   padding: 4em;
   display: flex;
   flex-direction: row;
@@ -201,7 +204,7 @@ li {
   height: 100%;
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
 }
 
 .galeria {
@@ -232,7 +235,7 @@ h2 {
 .animation-container {
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
 }
 
 .animation-container :hover {
@@ -260,6 +263,10 @@ h2 {
     font-size: 1.5em;
   }
 
+  .panel1-container {
+    margin-bottom: 14em;
+  }
+
   .diafragma-div {
     top: 8em;
   }
@@ -281,15 +288,15 @@ h2 {
   }
 
   .titulo-seccion {
-    font-size: 4vw;
+    font-size: 7vw;
   }
 
   .subtitulo1 {
-    font-size: 3.5vw;
+    font-size: 5.5vw;
   }
 
   .parrafo1 {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 
   .joven-fotografa {
@@ -340,15 +347,15 @@ h2 {
   }
 
   .titulo-seccion {
-    font-size: 3.5vw;
+    font-size: 6vw;
   }
 
   .subtitulo1 {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 
   .parrafo1 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .joven-fotografa {
@@ -397,15 +404,15 @@ h2 {
   }
 
   .titulo-seccion {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 
   .subtitulo1 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .parrafo1 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .fotografa-container {
@@ -442,15 +449,15 @@ h2 {
   }
 
   .titulo-seccion {
-    font-size: 2.8vw;
+    font-size: 3vw;
   }
 
   .subtitulo1 {
-    font-size: 2.3vw;
+    font-size: 2vw;
   }
 
   .parrafo1 {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 
   .joven-texto {
