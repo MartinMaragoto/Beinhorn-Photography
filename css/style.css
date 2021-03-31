@@ -31,7 +31,7 @@ li {
   float: right;
   width: 25%;
   height: auto;
-  margin-bottom: 4em;
+  margin-bottom: 8em;
 }
 
 .panel1 {
@@ -95,40 +95,45 @@ li {
 /*-----QUIENES SOMOS-----*/
 .texto-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
   padding: 5em;
 }
 
 /* Texto informativo*/
-.float-text {
-  width: 50%;
+.cuerpo-texto {
+  width: 90%;
   max-height: 100%;
-}
-
-.titulo-seccion {
   margin: 0 auto;
 }
 
+.titulo-seccion {
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: "Bad Script";
+}
+
 .subtitulo1 {
-  text-align: justify;
+  text-align: center;
   margin-top: 2.9em;
+  font-size: 2vw;
+  font-family: "Bad Script";
 }
 
 .parrafo1 {
   text-align: justify;
+  font-size: 1.5vw;
+  font-family: "Bad Script";
 }
 
 /*Carrusel de Bootstrap*/
 .carousel {
   max-width: 400px;
-  float: left;
-  padding-top: 10em;
-  padding-right: 2em;
+  margin: 0 auto;
 }
 
 .carousel-inner {
@@ -151,14 +156,14 @@ li {
 .joven-fotografa {
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
   padding: 4em;
   display: flex;
   flex-direction: row;
 }
 
 .joven-texto {
-  width: 60%;
+  width: 80%;
   max-height: 100%;
 }
 
@@ -168,7 +173,7 @@ li {
 
 /*Fondo de bebe rugiendo*/
 .leona-container {
-  height: 110em;
+  background-image: url("imagenes/lulu-roar.png");
 }
 
 .lulu-ruge {
@@ -199,7 +204,7 @@ li {
   height: 100%;
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
 }
 
 .galeria {
@@ -230,7 +235,7 @@ h2 {
 .animation-container {
   background: white;
   border-radius: 1em;
-  border: 1em solid #ffcccc;
+  border: 0.5em solid #ffcccc;
 }
 
 .animation-container :hover {
@@ -258,6 +263,10 @@ h2 {
     font-size: 1.5em;
   }
 
+  .panel1-container {
+    margin-bottom: 14em;
+  }
+
   .diafragma-div {
     top: 8em;
   }
@@ -271,7 +280,41 @@ h2 {
   }
 
   .carousel {
-    max-width: 100px;
+    max-width: 160px;
+  }
+
+  .texto-container {
+    padding: 0.5em;
+  }
+
+  .titulo-seccion {
+    font-size: 7vw;
+  }
+
+  .subtitulo1 {
+    font-size: 5.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 4.5vw;
+  }
+
+  .joven-fotografa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .joven-texto {
+    width: 100%;
+  }
+
+  .fotografa-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotografa {
+    width: 50%;
   }
 }
 @media only screen and (min-width: 461px) and (max-width: 600px) {
@@ -296,7 +339,39 @@ h2 {
   }
 
   .carousel {
-    max-width: 150px;
+    max-width: 190px;
+  }
+
+  .texto-container {
+    padding: 0.5em;
+  }
+
+  .titulo-seccion {
+    font-size: 6vw;
+  }
+
+  .subtitulo1 {
+    font-size: 4.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 3.5vw;
+  }
+
+  .joven-fotografa {
+    padding: 2em;
+  }
+
+  .joven-texto {
+    width: 80%;
+  }
+
+  .fotografa-container {
+    padding-top: 5em;
+  }
+
+  .fotografa {
+    width: 65%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 741px) {
@@ -321,7 +396,31 @@ h2 {
   }
 
   .carousel {
-    max-width: 190px;
+    max-width: 220px;
+  }
+
+  .texto-container {
+    padding: 1em;
+  }
+
+  .titulo-seccion {
+    font-size: 5vw;
+  }
+
+  .subtitulo1 {
+    font-size: 3.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 3vw;
+  }
+
+  .fotografa-container {
+    padding-top: 5em;
+  }
+
+  .fotografa {
+    width: 65%;
   }
 }
 @media only screen and (min-width: 742px) and (max-width: 840px) {
@@ -344,6 +443,30 @@ h2 {
   .carousel {
     max-width: 260px;
   }
+
+  .texto-container {
+    padding: 2em;
+  }
+
+  .titulo-seccion {
+    font-size: 3vw;
+  }
+
+  .subtitulo1 {
+    font-size: 2vw;
+  }
+
+  .parrafo1 {
+    font-size: 1.5vw;
+  }
+
+  .joven-texto {
+    width: 70%;
+  }
+
+  .fotografa {
+    width: 70%;
+  }
 }
 @media only screen and (min-width: 841px) and (max-width: 1000px) {
   .titulo {
@@ -360,6 +483,14 @@ h2 {
 
   .carousel {
     max-width: 340px;
+  }
+
+  .joven-texto {
+    width: 65%;
+  }
+
+  .fotografa {
+    width: 75%;
   }
 }
 

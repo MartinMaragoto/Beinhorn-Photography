@@ -3,39 +3,45 @@
 
 .texto-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   height: 100%;
 background: rgb(255, 255, 255);
 border-radius: 1em;
-border: 1em solid rgb(255, 204, 204);
+border: 0.5em solid rgb(255, 204, 204);
 padding: 5em;
 }
 
   /* Texto informativo*/
 
-  .float-text {
-    width: 50%;
+  .cuerpo-texto {
+    width: 90%;
     max-height: 100%;
-  }
-  .titulo-seccion {
     margin: 0 auto;
   }
+  .titulo-seccion {
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Bad Script';
+  }
   .subtitulo1 {
-   text-align: justify;
+   text-align: center;
    margin-top: 2.9em;
+   font-size: 2vw;
+   font-family: 'Bad Script';
   }
   .parrafo1 {
    text-align: justify;
+   font-size: 1.5vw;
+   font-family: 'Bad Script';
+   
   }
 
 /*Carrusel de Bootstrap*/
 
 .carousel {
   max-width: 400px;
-  float: left;
-  padding-top: 10em;
-  padding-right: 2em;
+  margin: 0 auto;
 }
 .carousel-inner{
     height: 100%;
@@ -55,20 +61,18 @@ padding: 5em;
 .joven-fotografa {
 background: rgb(255, 255, 255);
 border-radius: 1em;
-border: 1em solid rgb(255, 204, 204);
+border: 0.5em solid rgb(255, 204, 204);
 padding: 4em;
 display: flex;
 flex-direction: row;
 
 }
 .joven-texto {
-  width: 60%;
+  width: 80%;
   max-height: 100%;
 }
 
-.fotografa-container {
- 
-}
+
 .fotografa {
   width: 85%;
 }
@@ -77,8 +81,10 @@ flex-direction: row;
 
 
 .leona-container {
-  height: 110em;
+ background-image: url('imagenes/lulu-roar.png');
+
 }
+
 .lulu-ruge {
   position: sticky;
   top: 0;

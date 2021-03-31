@@ -7,6 +7,10 @@
   .titulo {
     font-size: 1.5em;
   }
+
+  .panel1-container {
+    margin-bottom: 14em;
+  }
   .diafragma-div {
     top: 8em;
   }
@@ -18,9 +22,40 @@
     width: 25%;
   }
 .carousel {
-    max-width: 100px;
+    max-width: 160px;
+}
+.texto-container {
+padding: 0.5em;
+
+}
+.titulo-seccion {
+  font-size: 7vw;
+}
+.subtitulo1 {
+ font-size: 5.5vw;
+}
+.parrafo1 {
+ font-size: 4.5vw;
 }
 
+.joven-fotografa {
+  display: flex;
+  flex-direction: column;
+}
+
+.joven-texto {
+  width: 100%;
+
+}
+.fotografa-container {
+display: flex;
+justify-content: center;
+}
+.fotografa {
+  width: 50%;
+    
+  
+}
 
     }
 
@@ -48,9 +83,35 @@
       }
        .carousel {
 
-        max-width: 150px;
+        max-width: 190px;
        }
-       
+       .texto-container {
+        padding: 0.5em;
+       }
+       .titulo-seccion {
+        font-size: 6vw;
+      }
+      .subtitulo1 {
+       font-size: 4.5vw;
+      }
+      .parrafo1 {
+       font-size: 3.5vw;
+      }
+      .joven-fotografa {
+        padding: 2em;
+       }
+       .joven-texto {
+        width: 80%;
+  
+      }
+      .fotografa-container {
+       padding-top: 5em;
+        }
+       .fotografa {
+        width: 65%;
+      }
+
+
       }
     
     @media only screen and (min-width: 600px) 
@@ -75,9 +136,27 @@
       }
        .carousel {
 
-        max-width: 190px;
+        max-width: 220px;
        }
-       
+
+       .texto-container {
+        padding: 1em;
+       }
+       .titulo-seccion {
+        font-size: 5.0vw;
+      }
+      .subtitulo1 {
+       font-size: 3.5vw;
+      }
+      .parrafo1 {
+       font-size: 3vw;
+      }
+      .fotografa-container {
+        padding-top: 5em;
+         }
+       .fotografa {
+        width: 65%;
+      }
           
     }
     
@@ -100,6 +179,25 @@
         .carousel {
             max-width: 260px;
         }
+        .texto-container {
+          padding: 2em;
+         }
+         .titulo-seccion {
+          font-size: 3vw;
+        }
+        .subtitulo1 {
+         font-size: 2vw;
+        }
+        .parrafo1 {
+         font-size: 1.5vw;
+        }
+        .joven-texto {
+          width: 70%;
+    
+        }
+        .fotografa {
+          width: 70%;
+        }
         
     }
     @media only screen and (min-width: 841px) 
@@ -120,6 +218,13 @@
         .carousel {
             max-width: 340px; 
 
+          }
+
+          .joven-texto {
+            width: 65%;
+          }
+        .fotografa {
+            width: 75%;
           }
       
     }
