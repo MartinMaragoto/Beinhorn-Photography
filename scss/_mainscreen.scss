@@ -8,24 +8,8 @@ body {
     font-size: 10px;
   }
 
-.titulo-container {
-
-  position: absolute;
-  top: 7em;
-  right: 1em;
-  text-align: right;
-}
-  .titulo {
-  font-family: 'Tangerine', cursive;
-  font-weight:500 ;
-  color: rgb(100, 28, 40);
-  z-index: 9;
-  font-size: 3em;
-  object-fit: contain;
-  }
-  
-  li {
-    margin: 0 1em 0 1em;
+header {
+  margin-bottom: 40%;
 }
 
 .panel1-container {
@@ -43,31 +27,20 @@ body {
   /*LOGO BEINHORN*/
   
   .diafragma-div {
-    position: absolute;
-    top: 0.5em;
-    width: 10%;
-    left: 22em;
+    width: 5%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+  }
 
     .diafragma {
       max-width: 100%;
       height: auto;
     }
 
+    .diafragma-div :hover {
+       transform: rotate(360deg);
+       transition: transform 3s;
 }
-  .diafragma-div :hover {
-    transform: rotate(360deg);
-    transition: transform 3s;
-}
-  .bph-div {
-    position: absolute;
-    top: 13.7em;
-    right: 4.3em;
-    z-index: 9;
-  }
-  .bph {
-    max-width: 100%;
-    height: auto;
-  }
   
   /*Navbar*/
   
@@ -90,17 +63,36 @@ body {
 margin-bottom: 0.75em;
 }
 
+li {
+  margin: 0 1em 0 1em;
+}
+
   .show {
-    text-align: center;
+    text-align: left;
     background-color: rgba(255, 255, 255, 0.818);
     border-radius: 1em;
-    margin-right:85%;
+    margin-right:80%;
   }
 
   .navbar-light .navbar-nav .nav-link {
     color: black;
   }
+
+  .nav-item:hover {
+      animation: glowing 5000ms infinite;
+    }
+    @keyframes glowing {
+      0% { box-shadow: 0 0 -10px #ffa0a8;
+      border-radius: 1em; }
+      40% { box-shadow: 0 0 20px #ffa0a8; 
+        border-radius: 1em;}
+        100% { box-shadow: 0 0 -10px #ffa0a8;
+          border-radius: 1em; }
+    }
+    
+    
   .navbar-brand {
+    margin: 0.5em 0em 0.5em 2.5em;
     font-size: 1.4em;
     font-family: 'Tangerine', cursive;
     font-weight:500 ;

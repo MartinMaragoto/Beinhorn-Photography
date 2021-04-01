@@ -84,12 +84,25 @@ flex-direction: row;
 .leona-container {
  background-image: url('imagenes/lulu-roar.png');
 
-}
 
 .lulu-ruge {
-  position: sticky;
-  top: 0;
   width: 100%;
-  z-index: 2;
+}
 
+}
+.boton-volver {
+  position: absolute;
+  right: 15em;
+  background-color: rgb(255,255,255);
+  border: 0.3em solid rgb(255, 204, 204);
+  border-radius: 5em;
+  width: 10em;
+  height: 10em;
+  margin-top: 3em;
+
+}
+.flecha-volver {
+  width: 55%;
+  margin-left: 2.2em;
+  margin-top: 0.5em;
 }

@@ -7,24 +7,8 @@ body {
   font-size: 10px;
 }
 
-.titulo-container {
-  position: absolute;
-  top: 7em;
-  right: 1em;
-  text-align: right;
-}
-
-.titulo {
-  font-family: "Tangerine", cursive;
-  font-weight: 500;
-  color: #641c28;
-  z-index: 9;
-  font-size: 3em;
-  object-fit: contain;
-}
-
-li {
-  margin: 0 1em 0 1em;
+header {
+  margin-bottom: 40%;
 }
 
 .panel1-container {
@@ -42,12 +26,12 @@ li {
 
 /*LOGO BEINHORN*/
 .diafragma-div {
-  position: absolute;
-  top: 0.5em;
-  width: 10%;
-  left: 22em;
+  width: 5%;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
 }
-.diafragma-div .diafragma {
+
+.diafragma {
   max-width: 100%;
   height: auto;
 }
@@ -55,18 +39,6 @@ li {
 .diafragma-div :hover {
   transform: rotate(360deg);
   transition: transform 3s;
-}
-
-.bph-div {
-  position: absolute;
-  top: 13.7em;
-  right: 4.3em;
-  z-index: 9;
-}
-
-.bph {
-  max-width: 100%;
-  height: auto;
 }
 
 /*Navbar*/
@@ -87,18 +59,41 @@ li {
   margin-bottom: 0.75em;
 }
 
+li {
+  margin: 0 1em 0 1em;
+}
+
 .show {
-  text-align: center;
+  text-align: left;
   background-color: rgba(255, 255, 255, 0.818);
   border-radius: 1em;
-  margin-right: 85%;
+  margin-right: 80%;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
 
+.nav-item:hover {
+  animation: glowing 5000ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -10px #ffa0a8;
+    border-radius: 1em;
+  }
+  40% {
+    box-shadow: 0 0 20px #ffa0a8;
+    border-radius: 1em;
+  }
+  100% {
+    box-shadow: 0 0 -10px #ffa0a8;
+    border-radius: 1em;
+  }
+}
 .navbar-brand {
+  margin: 0.5em 0em 0.5em 2.5em;
   font-size: 1.4em;
   font-family: "Tangerine", cursive;
   font-weight: 500;
@@ -192,12 +187,25 @@ li {
 .leona-container {
   background-image: url("imagenes/lulu-roar.png");
 }
-
-.lulu-ruge {
-  position: sticky;
-  top: 0;
+.leona-container .lulu-ruge {
   width: 100%;
-  z-index: 2;
+}
+
+.boton-volver {
+  position: absolute;
+  right: 15em;
+  background-color: white;
+  border: 0.3em solid #ffcccc;
+  border-radius: 5em;
+  width: 10em;
+  height: 10em;
+  margin-top: 3em;
+}
+
+.flecha-volver {
+  width: 55%;
+  margin-left: 2.2em;
+  margin-top: 0.5em;
 }
 
 /*----- GALERIA-----*/
@@ -228,10 +236,9 @@ li {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  z-index: 8;
-  padding-right: 20px;
-  padding-left: 20px;
+  grid-gap: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .contenido-galeria {
@@ -271,25 +278,18 @@ h2 {
   }
 }
 /* -----QUERY MEDIA-----*/
-@media only screen and (max-width: 460px) {
-  .titulo-container {
-    top: 6em;
-  }
-
-  .titulo {
-    font-size: 1.5em;
+@media only screen and (max-width: 399px) {
+  header {
+    margin-bottom: 70%;
   }
 
   .panel1-container {
     margin-bottom: 14em;
   }
 
-  .diafragma {
-    width: 90%;
-  }
-
-  .bph {
-    width: 25%;
+  .diafragma-div {
+    top: 6em;
+    width: 11%;
   }
 
   .show {
@@ -298,6 +298,7 @@ h2 {
 
   .navbar-brand {
     margin-bottom: 1em;
+    margin-left: 1.8em;
   }
 
   .carousel {
@@ -337,30 +338,101 @@ h2 {
   .fotografa {
     width: 50%;
   }
+
+  .galeria {
+    grid-template-columns: auto auto;
+  }
+
+  .boton-volver {
+    right: 0.5em;
+  }
 }
-@media only screen and (min-width: 461px) and (max-width: 600px) {
-  .titulo-container {
+@media only screen and (min-width: 400px) and (max-width: 460px) {
+  header {
+    margin-bottom: 60%;
+  }
+
+  .panel1-container {
+    margin-bottom: 14em;
+  }
+
+  .diafragma-div {
     top: 6em;
-  }
-
-  .titulo {
-    font-size: 1.5em;
-  }
-
-  .diafragma {
-    width: 90%;
-  }
-
-  .bph {
-    width: 50%;
+    width: 11%;
   }
 
   .show {
-    margin-right: 60%;
+    margin-right: 45%;
+  }
+
+  .navbar-brand {
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+  }
+
+  .carousel {
+    max-width: 160px;
+  }
+
+  .texto-container {
+    padding: 0.5em;
+  }
+
+  .titulo-seccion {
+    font-size: 7vw;
+  }
+
+  .subtitulo1 {
+    font-size: 5.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 4.5vw;
+  }
+
+  .joven-fotografa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .joven-texto {
+    width: 100%;
+  }
+
+  .fotografa-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fotografa {
+    width: 50%;
+  }
+
+  .galeria {
+    grid-template-columns: auto auto;
+  }
+
+  .boton-volver {
+    right: 1em;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 600px) {
+  header {
+    margin-bottom: 46%;
+  }
+
+  .diafragma-div {
+    top: 6em;
+    width: 11%;
+  }
+
+  .show {
+    margin-right: 58%;
   }
 
   .navbar-brand {
     margin-bottom: 0.8em;
+    margin-left: 2.5em;
   }
 
   .carousel {
@@ -398,22 +470,19 @@ h2 {
   .fotografa {
     width: 65%;
   }
+
+  .boton-volver {
+    right: 3em;
+  }
+
+  .galeria {
+    grid-template-columns: auto auto;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 741px) {
-  .titulo-container {
+  .diafragma-div {
     top: 6em;
-  }
-
-  .titulo {
-    font-size: 1.8em;
-  }
-
-  .diafragma {
-    max-width: 90%;
-  }
-
-  .bph {
-    width: 50%;
+    width: 9%;
   }
 
   .show {
@@ -422,6 +491,7 @@ h2 {
 
   .navbar-brand {
     margin-bottom: 0.75em;
+    margin-left: 2.5em;
   }
 
   .carousel {
@@ -451,26 +521,27 @@ h2 {
   .fotografa {
     width: 65%;
   }
+
+  .galeria {
+    grid-template-columns: auto auto;
+  }
+
+  .boton-volver {
+    right: 5em;
+  }
 }
 @media only screen and (min-width: 742px) and (max-width: 840px) {
-  .titulo-container {
-    top: 6.5em;
-  }
-
-  .titulo {
-    font-size: 2em;
-  }
-
-  .bph {
-    width: 60%;
+  .diafragma-div {
+    width: 8%;
   }
 
   .show {
-    margin-right: 80%;
+    margin-right: 70%;
   }
 
   .navbar-brand {
     margin-bottom: 0.5em;
+    margin-left: 2.5em;
   }
 
   .carousel {
@@ -500,18 +571,18 @@ h2 {
   .fotografa {
     width: 70%;
   }
+
+  .boton-volver {
+    right: 5em;
+  }
 }
 @media only screen and (min-width: 841px) and (max-width: 1000px) {
-  .titulo {
-    font-size: 2.5em;
-  }
-
-  .bph {
-    width: 75%;
+  .diafragma-div {
+    width: 7%;
   }
 
   .show {
-    margin-right: 80%;
+    margin-right: 75%;
   }
 
   .carousel {
@@ -524,6 +595,10 @@ h2 {
 
   .fotografa {
     width: 75%;
+  }
+
+  .boton-volver {
+    right: 5em;
   }
 }
 
