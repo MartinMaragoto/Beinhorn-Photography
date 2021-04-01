@@ -46,7 +46,7 @@ body {
     position: absolute;
     top: 0.5em;
     width: 10%;
-    left: 20em;
+    left: 22em;
 
     .diafragma {
       max-width: 100%;
@@ -91,9 +91,10 @@ margin-bottom: 0.75em;
 }
 
   .show {
-    background-color: rgba(255, 255, 255, 0.418);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.818);
     border-radius: 1em;
-    margin-right:25%;
+    margin-right:85%;
   }
 
   .navbar-light .navbar-nav .nav-link {
