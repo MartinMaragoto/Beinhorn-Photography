@@ -3,21 +3,49 @@
 
 /* Redes sociales*/
 
-.bebe-canasta {
-	width: 100%;
-}
-
-h2 {
-	text-align: center;
-    font-family: 'Open Sans Condensed';
-    font-size: 2.5vw;
-}
 
 .redes-container {
-background: rgb(255, 255, 255);
-border-radius: 1em;
-border: 0.5em solid rgb(255, 204, 204);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgb(255, 255, 255);
+	border-radius: 1em;
+	border: 0.5em solid rgb(255, 204, 204);
+	padding: 10em 0 10em 0;
+	}
+/*FORMULARIO*/	
+.form  {
+	background-color: rgb(255, 245, 245);
+	border: 0.1em solid rgb(255, 204, 204);
+	border-radius: 0.3m;
+	width: 80%;
+	padding: 2em;
+	margin: 1em 0 4em 0;
 }
+
+.form-row {
+	margin-bottom: 4em;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.form-row input[type='text']{
+
+	background-color: rgb(255, 255, 255);
+	border: 0.1em solid pink;
+	border-radius: 0.3em;
+	width: 100%;
+	padding: 0.7em;
+	font-size: 1.5em;
+	
+}
+.form-row label {
+	margin: 1.5em 0;
+}
+
+
+
 
 .animation-container {
 	display: flex;
@@ -26,7 +54,7 @@ border: 0.5em solid rgb(255, 204, 204);
 
 .redes {
 max-width: 100%;
-margin: center auto;
+margin: 5em;
 }
 
 .animation-container :hover {

@@ -1,24 +1,8 @@
 /*----- GALERIA-----*/
 
 
-.tituloGaleria {
-    display: flex;
-    width: 100%;
-    font-style: italic;
-    text-align: justify;
-    font-size: 25px ;
-    z-index: $zind;
-  
-  }
-  .texto {
-    display: flex;
-    z-index: 9;
-    font-size: 1rem;
 
-
-  }
-  
-  .recuadro2 {
+  .galeria-container {
     width: 100%;
     height: 100%;
     background: rgb(255, 255, 255);

@@ -103,7 +103,7 @@ li {
   padding: 0 0.43em 0 0.43em;
 }
 
-/*-----QUIENES SOMOS-----*/
+/*-----SOBRE MI-----*/
 .texto-container {
   display: flex;
   flex-direction: column;
@@ -131,27 +131,26 @@ li {
 .subtitulo1 {
   text-align: center;
   margin-top: 2.9em;
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-family: "Open Sans Condensed";
   font-weight: bold;
 }
 
 .parrafo1 {
   text-align: justify;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: "Open Sans Condensed";
 }
 
 /*Carrusel de Bootstrap*/
 .carousel {
-  max-width: 400px;
+  max-width: 40em;
   margin: 0 auto;
 }
 
 .carousel-inner {
   height: 100%;
   width: 100%;
-  z-index: 8;
 }
 
 .carousel-item {
@@ -165,7 +164,7 @@ li {
 }
 
 /*SOBRE NOSOTROS*/
-.joven-fotografa {
+.seccion-fotografa {
   background: white;
   border-radius: 1em;
   border: 0.5em solid #ffcccc;
@@ -183,62 +182,17 @@ li {
   width: 85%;
 }
 
-.subtitulo2 {
-  text-align: center;
-  margin-top: 2.9em;
-  font-size: 2vw;
-  font-family: "Bad Script";
-  font-weight: bold;
-}
-
-.parrafo2 {
-  text-align: justify;
-  font-size: 1.5vw;
-  font-family: "Bad Script";
-}
-
 /*Fondo de bebe rugiendo*/
 .leona-container {
   background-image: url("imagenes/lulu-roar.png");
 }
-.leona-container .lulu-ruge {
+
+.lulu-ruge {
   width: 100%;
-}
-
-.boton-volver {
-  position: absolute;
-  right: 15em;
-  background-color: white;
-  border: 0.3em solid #ffcccc;
-  border-radius: 5em;
-  width: 10em;
-  height: 10em;
-  margin-top: 3em;
-}
-
-.flecha-volver {
-  width: 55%;
-  margin-left: 2.2em;
-  margin-top: 0.5em;
 }
 
 /*----- GALERIA-----*/
-.tituloGaleria {
-  display: flex;
-  width: 100%;
-  font-style: italic;
-  text-align: justify;
-  font-size: 25px;
-  z-index: 8;
-}
-
-.texto {
-  display: flex;
-  z-index: 9;
-  font-size: 1rem;
-}
-
-.recuadro2 {
+.galeria-container {
   width: 100%;
   height: 100%;
   background: white;
@@ -263,20 +217,45 @@ li {
 
 /*-----RESERVA TU SESION-----*/
 /* Redes sociales*/
-.bebe-canasta {
-  width: 100%;
-}
-
-h2 {
-  text-align: center;
-  font-family: "Open Sans Condensed";
-  font-size: 2.5vw;
-}
-
 .redes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: white;
   border-radius: 1em;
   border: 0.5em solid #ffcccc;
+  padding: 10em 0 10em 0;
+}
+
+/*FORMULARIO*/
+.form {
+  background-color: #fff5f5;
+  border: 0.1em solid #ffcccc;
+  border-radius: 0.3m;
+  width: 80%;
+  padding: 2em;
+  margin: 1em 0 4em 0;
+}
+
+.form-row {
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type=text] {
+  background-color: white;
+  border: 0.1em solid pink;
+  border-radius: 0.3em;
+  width: 100%;
+  padding: 0.7em;
+  font-size: 1.5em;
+}
+
+.form-row label {
+  margin: 1.5em 0;
 }
 
 .animation-container {
@@ -286,7 +265,7 @@ h2 {
 
 .redes {
   max-width: 100%;
-  margin: center auto;
+  margin: 5em;
 }
 
 .animation-container :hover {
@@ -348,7 +327,7 @@ h2 {
     font-size: 4.5vw;
   }
 
-  .joven-fotografa {
+  .seccion-fotografa {
     display: flex;
     flex-direction: column;
   }
@@ -357,13 +336,9 @@ h2 {
     width: 100%;
   }
 
-  .fotografa-container {
-    display: flex;
-    justify-content: center;
-  }
-
   .fotografa {
     width: 50%;
+    margin-left: 7em;
   }
 
   .galeria {
@@ -417,7 +392,7 @@ h2 {
     font-size: 4.5vw;
   }
 
-  .joven-fotografa {
+  .seccion-fotografa {
     display: flex;
     flex-direction: column;
   }
@@ -426,13 +401,9 @@ h2 {
     width: 100%;
   }
 
-  .fotografa-container {
-    display: flex;
-    justify-content: center;
-  }
-
   .fotografa {
     width: 50%;
+    margin-left: 10em;
   }
 
   .galeria {
@@ -482,20 +453,14 @@ h2 {
     font-size: 3.5vw;
   }
 
-  .joven-fotografa {
-    padding: 2em;
-  }
-
   .joven-texto {
-    width: 70%;
-  }
-
-  .fotografa-container {
-    padding-top: 5em;
+    width: 100%;
   }
 
   .fotografa {
     width: 65%;
+    margin-bottom: 20em;
+    margin-top: 20em;
   }
 
   .boton-volver {
@@ -542,7 +507,8 @@ h2 {
   }
 
   .fotografa-container {
-    padding-top: 5em;
+    display: flex;
+    align-items: center;
   }
 
   .fotografa {
@@ -584,11 +550,11 @@ h2 {
   }
 
   .subtitulo1 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .parrafo1 {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   .joven-texto {
@@ -618,6 +584,14 @@ h2 {
 
   .joven-texto {
     width: 65%;
+  }
+
+  .subtitulo1 {
+    font-size: 3.5vw;
+  }
+
+  .parrafo1 {
+    font-size: 2.5vw;
   }
 
   .fotografa {

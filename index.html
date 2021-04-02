@@ -49,10 +49,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Quiénes somos</a>
+              <a class="nav-link active" aria-current="page" href="#sesion">¿Como es una sesión?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Como es una sesión</a>
+              <a class="nav-link" href="#yo">Sobre mi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#galeria">Galería</a>
@@ -75,7 +75,7 @@
 
 <!--COMO ES UNA SESION-->
 
-<div class="texto-container">
+<div id="sesion" class="texto-container">
 
   <p class="titulo-seccion">¿Cómo es una sesión?
 
@@ -134,28 +134,20 @@
 
    <div class="leona-container">
       <img class="lulu-ruge" src="imagenes/lulu-roar.png" alt="Beba rugiendo como una leona">
-      
-   <div class="empty-div">
-        <div class="boton-volver">
-          <a href="#volver"></a>
-            <img class="flecha-volver" src="imagenes/flecha arriba.png" alt="Flecha para volver arriba">
-       </div>
-   </div>
-
     </div>
     
 </section>
 
-<!--SOBRE NOSOTROS-->
-<section class="joven-fotografa"> 
+<!--SOBRE MI-->
+<section id="yo" class="seccion-fotografa"> 
   
-  <div class="fotografa-container">
+  <div  class="fotografa-container">
     <img class="fotografa" src="imagenes/yo.jpg" alt="Imagen de la fotografa">
   </div>
 
   <div class="joven-texto">
-    <p  class="subtitulo2">Sobre mi</p> 
-    <p class="parrafo2">Hola! soy Camila, una joven fotógrafa platense recibida en la 
+    <p class="titulo-seccion">Sobre mi</p> 
+    <p class="parrafo1">Hola! soy Camila, una joven fotógrafa platense recibida en la 
       Escuela Bonaerense de Arte Fotográfico. Soy madre de dos hijos, y vivo intensamente 
     cada momento con ellos.
     Me apasiona el vibrante mundo de la fotografía y el caleidoscopio de energía, alegría y vida que tienen los niños.
@@ -170,18 +162,16 @@
 
 <!--GALERIA-->
 
-  <div id="galeria" class="tituloGaleria"></div>
-    <!--<p class="texto"> Siempre llenos de energía y sorpresas, nos encanta trabajar con niños. 
-      Mira nuestra galería de fotos</p>-->
-
-  <div class="recuadro2">
-    <div class="galeria">
-      <img class="contenido-galeria" src="imagenes/recorte1.jpg" alt="nena sonriendo en sesión de interior">
-      <img class="contenido-galeria" src="imagenes/recortada3.jpg" alt="nene feliz en exterior">
-      <img class="contenido-galeria" src="./imagenes/recortada4.JPG" alt="nena sentada sobre un tronco">
-      <img class="contenido-galeria" src="imagenes/lulupeluches.jpg" alt="nena riendo entre los peluches">
-      <img class="contenido-galeria" src="imagenes/retocada6.jpg" alt="nene en sesión de interior con fondo celeste">
-      <img class="contenido-galeria" src="imagenes/recorte2.jpg" alt="nena sentada con un banquito">
+  
+  <div class="galeria-container">
+     <p id="galeria" class="titulo-seccion"> Galería de fotos</p>
+     <div class="galeria">
+       <img class="contenido-galeria" src="imagenes/recorte1.jpg" alt="nena sonriendo en sesión de interior">
+       <img class="contenido-galeria" src="imagenes/recortada3.jpg" alt="nene feliz en exterior">
+       <img class="contenido-galeria" src="./imagenes/recortada4.JPG" alt="nena sentada sobre un tronco">
+       <img class="contenido-galeria" src="imagenes/lulupeluches.jpg" alt="nena riendo entre los peluches">
+       <img class="contenido-galeria" src="imagenes/retocada6.jpg" alt="nene en sesión de interior con fondo celeste">
+       <img class="contenido-galeria" src="imagenes/recorte2.jpg" alt="nena sentada con un banquito">
      
     </div>
   </div>  
@@ -196,21 +186,35 @@
 
 <footer>
 
-<div>
-  <img class="bebe-canasta" src="imagenes/canasta-love.JPG" alt="Bebé en una canasta">
-</div>  
-
 
   <div id="reserva" class="redes-container">
-    <h2>Contactanos y reservá tu sesión hoy mismo</h2>
+    <p class="titulo-seccion"> Contactanos y reservá tu sesión hoy mismo</p>
 
-         <div class="animation-container"> 
-         <img class="redes"  src="imagenes/WhatsApp-Logotipo-png.png" alt="Logo de whatsapp">
+    <form action="/server/" method="POST" class="form">
+      <div class="form-row">     
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="nombre">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email">
+              <label for="message">Mensaje</label>
+              <textarea rows="8" name="message" id="message"></textarea> 
+              <button type="submit">Enviar</button>
+
+              
+          </div>
+      </form>
+      <div class="animation-container">
+        <a href="https://wa.me/5492216436425"> 
+        <img class="redes"  src="imagenes/WhatsApp-Logotipo-png.png" alt="Logo de whatsapp">
+      </a>
+        <a href="https://www.instagram.com/beinhorn_photography/">
+        <img class="redes" src="imagenes/logo-insta3.png" alt="Logo de instagram">
+       </a>
+        </div>
+    </div>
+  
+
          
-         <a href="https://www.instagram.com/beinhorn_photography/">
-         <img class="redes" src="imagenes/logo-insta3.png" alt="Logo de instagram">
-        </a>
-         </div>
 
   </div>
 
