@@ -4,18 +4,63 @@
 /* Redes sociales*/
 
 
-h2 {
-    font-style: italic;
-    font-size: 25px;
-    text-decoration: underline;
-    z-index: $zind;  
+.redes-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgb(255, 255, 255);
+	border-radius: 1em;
+	border: 0.5em solid rgb(255, 204, 204);
+	padding: 10em;
+	}
+/*FORMULARIO*/	
+.form  {
+	background-color: rgb(255, 245, 245);
+	border: 0.1em solid rgb(255, 204, 204);
+	border-radius: 0.3m;
+	width: 80%;
+	padding: 5em;
+	margin: 0 0 4em 0;
 }
 
-.animation-container {
-background: rgb(255, 255, 255);
-border-radius: 1em;
-border: 0.5em solid rgb(255, 204, 204);
+.form-row {
+	margin-bottom: 4em;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
 }
+.form-row input[type='text']{
+
+	background-color: rgb(255, 255, 255);
+	border: 0.1em solid pink;
+	border-radius: 0.3em;
+	width: 100%;
+	padding: 0.7em;
+	font-size: 1.5em;
+	
+}
+.form-row label {
+	margin: 1.5em 0;
+}
+
+h2 {
+	text-align: center;
+    font-family: 'Open Sans Condensed';
+    font-size: 2.5vw;
+}
+
+
+.animation-container {
+	display: flex;
+	justify-content: center;
+}
+
+.redes {
+max-width: 100%;
+margin: 5em;
+}
+
 .animation-container :hover {
 
 animation: pulse 2s infinite;
