@@ -1,0 +1,29 @@
+/*SECCION SOBRE MI*/
+
+  /*Fondo de Nena-Leona*/
+
+  .leona-container {
+    background-image: url('imagenes/lulu-roar.png');
+   
+   }
+   .lulu-ruge {
+     width: 100%;
+}
+   /*Texto e imagen sobre mi */
+    .yo {
+    background: rgb(255, 255, 255);
+    border-radius: 1em;
+    border: 0.5em solid rgb(255, 204, 204);
+    padding: 4em;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .joven-texto {
+      width: 80%;
+      max-height: 100%;
+    }
+
+    .fotografa {
+      width: 85%;
+    }

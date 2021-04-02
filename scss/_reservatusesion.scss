@@ -1,8 +1,7 @@
-/*-----RESERVA TU SESION-----*/
+/*-----SECCION RESERVA TU SESION-----*/
 
 
-/* Redes sociales*/
-
+/* Section-redes*/
 
 .redes-container {
 	display: flex;
@@ -13,7 +12,8 @@
 	border: 0.5em solid rgb(255, 204, 204);
 	padding: 10em 0 10em 0;
 	}
-/*FORMULARIO*/	
+
+/*Formulario*/	
 .form  {
 	background-color: rgb(255, 245, 245);
 	border: 0.1em solid rgb(255, 204, 204);
@@ -46,15 +46,17 @@
 
 
 
+/*Redes sociales*/
 
+.redes {
+	max-width: 100%;
+	margin: 5em;
+	}
+
+/*Animación Redes*/
 .animation-container {
 	display: flex;
 	justify-content: center;
-}
-
-.redes {
-max-width: 100%;
-margin: 5em;
 }
 
 .animation-container :hover {

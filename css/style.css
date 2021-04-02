@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/*SECCION INICIO*/
+/*BODY*/
 body {
   background-color: white;
   background-image: url(../imagenes/tetete.png);
@@ -7,41 +10,12 @@ body {
   font-size: 10px;
 }
 
+/*HEADER*/
 header {
   margin-bottom: 40%;
 }
 
-.panel1-container {
-  float: right;
-  width: 25%;
-  height: auto;
-  margin-bottom: 8em;
-}
-
-.panel1 {
-  float: right;
-  width: 100%;
-  height: auto;
-}
-
-/*LOGO BEINHORN*/
-.diafragma-div {
-  width: 5%;
-  margin-left: 0.5em;
-  margin-top: 0.5em;
-}
-
-.diafragma {
-  max-width: 100%;
-  height: auto;
-}
-
-.diafragma-div :hover {
-  transform: rotate(360deg);
-  transition: transform 3s;
-}
-
-/*Navbar*/
+/*NAVBAR*/
 .navbar {
   padding: 0px;
 }
@@ -63,6 +37,7 @@ li {
   margin: 0 1em 0 1em;
 }
 
+/*Navbar desplegado*/
 .show {
   text-align: left;
   background-color: rgba(255, 255, 255, 0.818);
@@ -74,6 +49,18 @@ li {
   color: black;
 }
 
+.navbar-brand {
+  margin: 0.5em 0em 0.5em 2.5em;
+  font-size: 1.4em;
+  font-family: "Tangerine", cursive;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.818);
+  border-radius: 0.5em;
+  border: 0.1em solid #ffcccc;
+  padding: 0 0.43em 0 0.43em;
+}
+
+/*Animación del navbar desplegado*/
 .nav-item:hover {
   animation: glowing 5000ms infinite;
 }
@@ -92,18 +79,25 @@ li {
     border-radius: 1em;
   }
 }
-.navbar-brand {
-  margin: 0.5em 0em 0.5em 2.5em;
-  font-size: 1.4em;
-  font-family: "Tangerine", cursive;
-  font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.818);
-  border-radius: 0.5em;
-  border: 0.1em solid #ffcccc;
-  padding: 0 0.43em 0 0.43em;
+/*LOGO*/
+.diafragma-div {
+  width: 5%;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
 }
 
-/*-----SOBRE MI-----*/
+.diafragma {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Animación Logo*/
+.diafragma-div :hover {
+  transform: rotate(360deg);
+  transition: transform 3s;
+}
+
+/*-----COMO ES UNA SESION-----*/
 .texto-container {
   display: flex;
   flex-direction: column;
@@ -115,7 +109,7 @@ li {
   padding: 5em;
 }
 
-/* Texto informativo*/
+/*ESTILO de Texto para TODAS LAS SECCIONES*/
 .cuerpo-texto {
   width: 90%;
   max-height: 100%;
@@ -163,8 +157,18 @@ li {
   height: auto;
 }
 
-/*SOBRE NOSOTROS*/
-.seccion-fotografa {
+/*SECCION SOBRE MI*/
+/*Fondo de Nena-Leona*/
+.leona-container {
+  background-image: url("imagenes/lulu-roar.png");
+}
+
+.lulu-ruge {
+  width: 100%;
+}
+
+/*Texto e imagen sobre mi */
+.yo {
   background: white;
   border-radius: 1em;
   border: 0.5em solid #ffcccc;
@@ -182,16 +186,7 @@ li {
   width: 85%;
 }
 
-/*Fondo de bebe rugiendo*/
-.leona-container {
-  background-image: url("imagenes/lulu-roar.png");
-}
-
-.lulu-ruge {
-  width: 100%;
-}
-
-/*----- GALERIA-----*/
+/*----- SECCION GALERIA-----*/
 .galeria-container {
   width: 100%;
   height: 100%;
@@ -215,8 +210,8 @@ li {
   object-fit: cover;
 }
 
-/*-----RESERVA TU SESION-----*/
-/* Redes sociales*/
+/*-----SECCION RESERVA TU SESION-----*/
+/* Section-redes*/
 .redes-container {
   display: flex;
   flex-direction: column;
@@ -227,7 +222,7 @@ li {
   padding: 10em 0 10em 0;
 }
 
-/*FORMULARIO*/
+/*Formulario*/
 .form {
   background-color: #fff5f5;
   border: 0.1em solid #ffcccc;
@@ -258,14 +253,16 @@ li {
   margin: 1.5em 0;
 }
 
-.animation-container {
-  display: flex;
-  justify-content: center;
-}
-
+/*Redes sociales*/
 .redes {
   max-width: 100%;
   margin: 5em;
+}
+
+/*Animación Redes*/
+.animation-container {
+  display: flex;
+  justify-content: center;
 }
 
 .animation-container :hover {
@@ -285,12 +282,9 @@ li {
 }
 /* -----QUERY MEDIA-----*/
 @media only screen and (max-width: 399px) {
+  /*SECCION HOME*/
   header {
     margin-bottom: 70%;
-  }
-
-  .panel1-container {
-    margin-bottom: 14em;
   }
 
   .diafragma-div {
@@ -307,6 +301,7 @@ li {
     margin-left: 1.8em;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 160px;
   }
@@ -327,7 +322,8 @@ li {
     font-size: 4.5vw;
   }
 
-  .seccion-fotografa {
+  /*SECCION SOBRE MI*/
+  .yo {
     display: flex;
     flex-direction: column;
   }
@@ -341,15 +337,13 @@ li {
     margin-left: 7em;
   }
 
+  /*SECCION GALERIA*/
   .galeria {
     grid-template-columns: auto auto;
   }
-
-  .boton-volver {
-    right: 0.5em;
-  }
 }
 @media only screen and (min-width: 400px) and (max-width: 460px) {
+  /*SECCION HOME*/
   header {
     margin-bottom: 60%;
   }
@@ -372,6 +366,7 @@ li {
     margin-left: 2.5em;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 160px;
   }
@@ -392,7 +387,8 @@ li {
     font-size: 4.5vw;
   }
 
-  .seccion-fotografa {
+  /*SECCION SOBRE MI*/
+  .yo {
     display: flex;
     flex-direction: column;
   }
@@ -406,15 +402,13 @@ li {
     margin-left: 10em;
   }
 
+  /*SECCION GALERIA*/
   .galeria {
     grid-template-columns: auto auto;
   }
-
-  .boton-volver {
-    right: 1em;
-  }
 }
 @media only screen and (min-width: 461px) and (max-width: 600px) {
+  /*SECCION HOME*/
   header {
     margin-bottom: 46%;
   }
@@ -433,6 +427,7 @@ li {
     margin-left: 2.5em;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 190px;
   }
@@ -453,6 +448,7 @@ li {
     font-size: 3.5vw;
   }
 
+  /*SECCION SOBRE MI*/
   .joven-texto {
     width: 100%;
   }
@@ -463,15 +459,13 @@ li {
     margin-top: 20em;
   }
 
-  .boton-volver {
-    right: 3em;
-  }
-
+  /*SECCION GALERIA */
   .galeria {
     grid-template-columns: auto auto;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 741px) {
+  /*SECCION HOME*/
   .diafragma-div {
     top: 6em;
     width: 9%;
@@ -486,6 +480,7 @@ li {
     margin-left: 2.5em;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 220px;
   }
@@ -506,6 +501,7 @@ li {
     font-size: 3vw;
   }
 
+  /*SECCION SOBRE MI*/
   .fotografa-container {
     display: flex;
     align-items: center;
@@ -515,15 +511,13 @@ li {
     width: 65%;
   }
 
+  /*SECCION GALERIA*/
   .galeria {
     grid-template-columns: auto auto;
   }
-
-  .boton-volver {
-    right: 5em;
-  }
 }
 @media only screen and (min-width: 742px) and (max-width: 840px) {
+  /*SECCION HOME */
   .diafragma-div {
     width: 8%;
   }
@@ -537,6 +531,7 @@ li {
     margin-left: 2.5em;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 260px;
   }
@@ -557,6 +552,7 @@ li {
     font-size: 2.5vw;
   }
 
+  /*SECCION SOBRE MI*/
   .joven-texto {
     width: 70%;
   }
@@ -564,12 +560,9 @@ li {
   .fotografa {
     width: 70%;
   }
-
-  .boton-volver {
-    right: 5em;
-  }
 }
 @media only screen and (min-width: 841px) and (max-width: 1000px) {
+  /*SECCION HOME*/
   .diafragma-div {
     width: 7%;
   }
@@ -578,6 +571,7 @@ li {
     margin-right: 75%;
   }
 
+  /*SECCION COMO ES UNA SESION*/
   .carousel {
     max-width: 340px;
   }
@@ -594,12 +588,9 @@ li {
     font-size: 2.5vw;
   }
 
+  /*SECCION SOBRE MI*/
   .fotografa {
     width: 75%;
-  }
-
-  .boton-volver {
-    right: 5em;
   }
 }
 
