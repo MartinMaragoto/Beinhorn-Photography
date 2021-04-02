@@ -1,26 +1,25 @@
+
 /* -----QUERY MEDIA-----*/
-@media only screen and (max-width: 460px ) {
+@media only screen and (max-width: 399px ) {
 
-  .titulo-container {
-    top: 6em;
+  header {
+    margin-bottom: 70%;
   }
-  .titulo {
-    font-size: 1.5em;
-  }
-
   .panel1-container {
     margin-bottom: 14em;
   }
   .diafragma-div {
-    top: 8em;
+    top: 6em;
+    width: 11%;
   }
-  .diafragma {
-    width: 90%;
+  .show {
+    margin-right:40%;
   }
-  
-  .bph {
-    width: 25%;
-  }
+  .navbar-brand {
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+    }
+
 .carousel {
     max-width: 160px;
 }
@@ -53,36 +52,100 @@ justify-content: center;
 }
 .fotografa {
   width: 50%;
-    
-  
+}
+ .galeria {
+    grid-template-columns: auto auto;
+  }     
+  .boton-volver {
+    right: 0.5em;
+  }
+}
+@media only screen and (min-width: 400px)
+and (max-width: 460px ) {
+
+  header {
+    margin-bottom: 60%;
+  }
+  .panel1-container {
+    margin-bottom: 14em;
+  }
+  .diafragma-div {
+    top: 6em;
+    width: 11%;
+  }
+
+  .show {
+    margin-right:45%;
+  }
+  .navbar-brand {
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+    }
+
+.carousel {
+    max-width: 160px;
+}
+.texto-container {
+padding: 0.5em;
+
+}
+.titulo-seccion {
+  font-size: 7vw;
+}
+.subtitulo1 {
+ font-size: 5.5vw;
+}
+.parrafo1 {
+ font-size: 4.5vw;
+}
+
+.joven-fotografa {
+  display: flex;
+  flex-direction: column;
+}
+
+.joven-texto {
+  width: 100%;
+
+}
+.fotografa-container {
+display: flex;
+justify-content: center;
+}
+.fotografa {
+  width: 50%;   
+}
+
+.galeria {
+  grid-template-columns: auto auto;
+} 
+.boton-volver {
+  right: 1em;
+
 }
 
     }
 
-
-
     @media only screen and (min-width: 461px) 
     and (max-width: 600px) {
       
-      .titulo-container {
-        top: 6em;
+      header {
+        margin-bottom: 46%;
       }
-      .titulo {
-        font-size: 1.5em;
-      }
-      .diafragma {
-        width: 90%;
-      }
-
       .diafragma-div {
-        top: 8em;
-      }
+        top: 6em;
+        width: 11%;
+      }  
 
-      .bph {
-        width: 50%;
+      .show {
+        margin-right:58%;
       }
+      .navbar-brand {
+        margin-bottom: 0.8em;
+        margin-left: 2.5em;
+        }
+
        .carousel {
-
         max-width: 190px;
        }
        .texto-container {
@@ -101,7 +164,7 @@ justify-content: center;
         padding: 2em;
        }
        .joven-texto {
-        width: 80%;
+        width: 70%;
   
       }
       .fotografa-container {
@@ -110,32 +173,32 @@ justify-content: center;
        .fotografa {
         width: 65%;
       }
-
-
+      .boton-volver {
+        right: 3em;
+  
+      }
+      .galeria {
+        grid-template-columns: auto auto;
+      } 
       }
     
     @media only screen and (min-width: 600px) 
     and (max-width: 741px) {
       
-      .titulo-container {
-        top: 6em;
-      }
-      .titulo {
-        font-size: 1.8em;
-      }
-      .diafragma {
-        max-width: 90%;
-      }
-
+    
       .diafragma-div {
-        top: 8.5em;
+        top: 6em;
+        width: 9%;
       }
+      .show {
+        margin-right:67%;
+      }
+      .navbar-brand {
+        margin-bottom: 0.75em;
+        margin-left: 2.5em;
+        }
 
-      .bph {
-        width: 50%;
-      }
        .carousel {
-
         max-width: 220px;
        }
 
@@ -157,25 +220,30 @@ justify-content: center;
        .fotografa {
         width: 65%;
       }
-          
+      .galeria {
+        grid-template-columns: auto auto;
+      } 
+
+      .boton-volver {
+        right: 5em;
+  
+      }
     }
     
     @media only screen and (min-width: 742px) 
     and (max-width: 840px) {
 
-      .titulo-container {
-       top: 6.5em; 
-      }
-      .titulo {
-        font-size: 2em;
-      }
       .diafragma-div {
-        top: 9em;
+        width: 8%;
       }
+      .show {
+        margin-right:70%;
+      }
+      .navbar-brand {
+        margin-bottom: 0.5em;
+        margin-left: 2.5em;
+        }
 
-      .bph {
-        width: 60%;
-      }
         .carousel {
             max-width: 260px;
         }
@@ -198,33 +266,32 @@ justify-content: center;
         .fotografa {
           width: 70%;
         }
-        
+        .boton-volver {
+          right: 5em;
+    
+        }
     }
     @media only screen and (min-width: 841px) 
     and (max-width: 1000px) {
     
-      .titulo {
-        font-size: 2.5em;
-      }
-
       .diafragma-div {
-        top: 10em;
+        width: 7%;
       }
-  
-      .bph {
-        width: 75%;
+      .show {
+        margin-right:75%;
       }
-
-        .carousel {
+      
+      .carousel {
             max-width: 340px; 
-
           }
-
-          .joven-texto {
+      .joven-texto {
             width: 65%;
           }
-        .fotografa {
+      .fotografa {
             width: 75%;
           }
+          .boton-volver {
+            right: 5em;
       
+          }
     }

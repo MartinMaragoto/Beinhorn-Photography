@@ -8,24 +8,8 @@ body {
     font-size: 10px;
   }
 
-.titulo-container {
-
-  position: absolute;
-  top: 7em;
-  right: 1em;
-  text-align: right;
-}
-  .titulo {
-  font-family: 'Tangerine', cursive;
-  font-weight:500 ;
-  color: rgb(100, 28, 40);
-  z-index: 9;
-  font-size: 3em;
-  object-fit: contain;
-  }
-  
-  li {
-    margin: 0 1em 0 1em;
+header {
+  margin-bottom: 40%;
 }
 
 .panel1-container {
@@ -43,54 +27,79 @@ body {
   /*LOGO BEINHORN*/
   
   .diafragma-div {
-    position: absolute;
-    width: 10%;
-    top: 11em;
-    right: 0em;
-    z-index: 9;
+    width: 5%;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+  }
 
     .diafragma {
       max-width: 100%;
       height: auto;
     }
 
+    .diafragma-div :hover {
+       transform: rotate(360deg);
+       transition: transform 3s;
 }
-  .diafragma-div :hover {
-    transform: rotate(360deg);
-    transition: transform 3s;
-}
-  .bph-div {
-    position: absolute;
-    top: 13.7em;
-    right: 4.3em;
-    z-index: 9;
-  }
-  .bph {
-    max-width: 100%;
-    height: auto;
-  }
   
   /*Navbar*/
   
   
+  .navbar {
+    padding: 0px;
+    
+  } 
   .container-fluid {
    
     height: 70px;
-    font-size: 1.5em;
+    font-size: 2.0em;
     font-family: 'Bad Script', cursive;
     position: absolute;
     top: 0em;
-    z-index: 8;
   }
-  .navbar {
-    padding: 0px;
-  } 
+ 
+.navbar-toggler {
+  margin-top: 0.75em;
+margin-bottom: 0.75em;
+}
+
+li {
+  margin: 0 1em 0 1em;
+}
+
+  .show {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.818);
+    border-radius: 1em;
+    margin-right:80%;
+  }
 
   .navbar-light .navbar-nav .nav-link {
     color: black;
   }
+
+  .nav-item:hover {
+      animation: glowing 5000ms infinite;
+    }
+    @keyframes glowing {
+      0% { box-shadow: 0 0 -10px #ffa0a8;
+      border-radius: 1em; }
+      40% { box-shadow: 0 0 20px #ffa0a8; 
+        border-radius: 1em;}
+        100% { box-shadow: 0 0 -10px #ffa0a8;
+          border-radius: 1em; }
+    }
+    
+    
   .navbar-brand {
-    padding-left: 0.85em;
+    margin: 0.5em 0em 0.5em 2.5em;
+    font-size: 1.4em;
+    font-family: 'Tangerine', cursive;
+    font-weight:500 ;
+    background-color: rgb(255, 255, 255, 0.818);
+    border-radius: 0.5em;
+    border: 0.1em solid rgb(255, 204, 204);
+    padding: 0 0.43em 0 0.43em;
   }
 
   
