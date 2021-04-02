@@ -11,7 +11,7 @@
 	background: rgb(255, 255, 255);
 	border-radius: 1em;
 	border: 0.5em solid rgb(255, 204, 204);
-	padding: 10em;
+	padding: 10em 0 10em 0;
 	}
 /*FORMULARIO*/	
 .form  {
@@ -19,8 +19,8 @@
 	border: 0.1em solid rgb(255, 204, 204);
 	border-radius: 0.3m;
 	width: 80%;
-	padding: 5em;
-	margin: 0 0 4em 0;
+	padding: 2em;
+	margin: 1em 0 4em 0;
 }
 
 .form-row {
@@ -44,11 +44,7 @@
 	margin: 1.5em 0;
 }
 
-h2 {
-	text-align: center;
-    font-family: 'Open Sans Condensed';
-    font-size: 2.5vw;
-}
+
 
 
 .animation-container {
