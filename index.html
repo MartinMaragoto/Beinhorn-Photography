@@ -1,307 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Google font OPEN SANS regular-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans&display=swap" rel="stylesheet">
-<!--Google font OPEN SANS bold-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-<!--Google font PT SANS bold-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans:wght@700&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
-<!--Google font Roboto Slab-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-    <title>Martin Maragoto</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="mediaquerys.css">
-    <script src="javascript.js" defer></script>
+    <title>Fotografía-Beinhorn</title>
+    <!--SEO-->
+    <meta name="description" content="Fotografía infantil y newborn en La Plata">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="imagenes/Logo-parte-interna-7-2-21.png" type="image/x-icon">
+    <meta name="keywords" content="fotografía, fotografía newborn, fotografía infantil, sesión fotográfica">
+    <meta name= "author" content= "Martin Maragoto">
+    <meta name= "copyright" content= "Maragoto's">
+
+    <!--Opengraph-->
+    <meta property= "og: title" content= "Fotografía Beinhorn">
+    <meta property= "og: description" content= "Sesiones de fotos para newborn, bebés y niños">
+    <meta property= "og: imagen" content= "imagenes/Logo rosa entero 23-02-21.png">
     
-
-    </head>
-
-
-
-
-<!--INICIO DEL BODY------------------------------->
-
-
-
-
-
-<body id="background">
-   
-    <!-- <div class="background-cover2"></div>     -->
-    <div id="backdrop" ></div>
-    <header id="main-header">
-        <h1>Martín Maragoto</h1>
-        <p>Front-End Developer</p>
-        
-    </header>
-
-    <div class="fireflyBox" id="pop-up">
-        <div class="container">  
-                <div class="light1">
-                </div>
-                <div class="light2">
-                </div>
-                <div class="light3">
-                </div>
-                <div class="light4">
-                </div>
-                <div class="light5">
-                </div>
-        </div>
-      
-        <p class="welcome-text">Hi there! My name is Martín, <br> welcome to my online CV! <br><br> I'm a Front-End Web Developer and a designer. <br> I hope you enjoy my page!
-        </p>
-
-        <button type="submit" class="button" id="first-btn">Ok!</button>
-    </div>
-
     
-<!--SECTION "CHOOSE DESIGN OR DEVELOPER"----------------------------------------------->
-
-<section id="choose-section">
-        
+    <!--<meta property= "og: url" content= "DIRECCION DE MI PAGINA WEB">-->
+    <meta property= "og: type" content= "website">
+    <meta property= "og: locale" content= "es_ES">
        
-            <div id="modal">
+
+    <!--Links de Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     
-                <h2> Design <br> 
-                    Skills</h2>
-
-                <div class="container">
-
-                    <div class="linea1"></div>
-                    <div class="linea2"></div>
-                    <div class="linea3"></div>
-                    <div class="linea4"></div>
-                    <div class="linea5"></div>
-                    <div class="figura1"></div>
-                    <div class="figura2"></div>
-                    <div class="figura3"></div>
-                    <div class="figura4"></div>
-                </div>
-                <div>
-                    <button type="submit" class="button" id="btn2">Enter</button>
-                </div>
-            </div>
-
-            <div id="modal2">
-                
-                        <h2 class="title">Developer <br>
-                            Skills</h2>
-
-                        <div class="matrix"></div>
-
-                            
-
-                        <div>
-                            <button type="submit" class="button" id="btn3">Enter</button>
-                        </div>
-            </div>
-                        
     
-</section>
+     <!--Fuentes-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<!--LINK Css-->
+<link rel="stylesheet" href="css/style.css">
 
-<!-- INICIO SECTION DATA ------------------------------------------------------------>
-<div id="backButtonContainer" >
-    <button type="button" class="button" id="backButton"><span class="span2">&#8592</span></button> 
-    <h3 id="backButtonText">Back</h3>
-</div>
+<!--FIN DEL HEAD-->
+</head>
 
-<div id="videoButtonContainer" >
-    <h3 id="videoButtonText">See my video presentation</h3>
-    <button type="button" class="button" id="videoButton"><span class="span2">&#8594</span></button> 
+<!--INICIO DEL BODY-->
+<body>
+
+<!--INICIO DEL HEADER-->
+<header>
+
+<!--INICIO DE LA SECCION HOME-->
+<!--Inicio del Navbar-->
     
-</div>
-
-<h2 class="title">Developer Skills</h2>
-<section id="data-section">
-
-    <div class="photobackground"> <img class="fotoperfil" src=images\fotoperfil.jpeg alt="Mi foto de perfil">
-            <p class="welcome-text"> Martín Maragoto <br> Front-End Developer</p>
-    </div>
-
-    
-
-    <div class="fireflyBox2" id="about-me">
-        <h2 class="sub-title">About me</h2>
-        <button type="button" class="button" id="smallButton1">&#8595</button>
-        <div class="text-bubble" id="textAboutMe">
-            <p class="paragraph" >
-        
-            Highlights about me: <br>
-            <span>✓</span> I have a high, fluent ENGLISH level, and a native spanish level<br>
-            <br>
-            <span>✓</span> I've been working as an art teacher for the last 13 years, and I want to change my career <br>
-            <br>
-            <span>✓</span> I'll never stop googling, learning and practicing <br>
-            <br>
-            <span>✓</span> I'm an accountable person with nerves of steel for deadlines <br> 
-            <br>      
-            <span>✓</span> I have a keen eye for details<br> 
-            </p> 
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Beinhorn Photography</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sesion">¿Como es una sesión?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#yo">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reserva">Reserva tu sesión</a>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+    </nav>
+
+<!--FIN del Navbar-->
+<!--Logo Beinhorn -->
+
+    <div id="volver" class="diafragma-div">
+       <img class="diafragma" src="imagenes/Logo-rosa-7-2-21.png" alt="Imagen de diafragma rosa"></div>
     
+       </header>
+<!--fin del Header-->
+
+<!--FIN de la sección HOME-->
+<!--INICIO de sección ¿COMO ES UNA SESION?-->
+
+<section id="sesion" class="texto-container">
+
+  <p class="titulo-seccion">¿Cómo es una sesión?
+
+  <div class="cuerpo-texto"><p class="subtitulo1">Medidas de seguridad contra el covid</p> 
+
+    <p class="parrafo1">En Fotografía Beinhorn, realizamos sesiones únicamente en exteriores,
+      y limitamos el número de personas a 5: el bebé, 2 familiares, la fotógrafa y su ayudante. 
+      Además, tomamos todos los recaudos para cuidar de tus hijos y tu familia, para lo cual utilizamos 
+      alcohol en gel y barbijos.</p>
+  </div>
+
+ <!--Carrusel Bootstrap-->
+
+<div class="carousel slide" data-bs-ride="carousel">
     
-
-
-    <div class="fireflyBox2" id="personal-data">
-        <h2 class="sub-title">Personal Data</h2>
-        <button type="button" class="button" id="smallButton2">&#8595</button>
-    
-         <div class="text-bubble" id="textPersonalData">
-            <p class="paragraph">
-        
-            <img class="iconImg" src="images\doB2.jpg" alt=""> 34 years old <br>
-            
-            <img class="iconImg" src="images\street.png" alt=""> La Plata, Buenos Aires <br>
-            
-            <img class="iconImg" src="images\bandera.png" alt=""> Argentine <br>
-            
-            <img class="iconImg2" src="images\cellp2.png" alt=""> +54 9 (221) 6436425 <br>
-            
-            <img class="iconImg" src="images\arroba.png" alt=""> martinalearte@gmail.com </p> 
-        </div>
-    </div>
-
-
-
-    <div class="fireflyBox2" id="portfolio">  
-        <h2 class="sub-title">Portfolio</h2>
-        <button type="button" class="button" id="smallButton3">&#8595</button>
-
-        <div class="text-bubble" id="portfolioLinks">
-            <p class="paragraph" >
-                <a href="https://www.linkedin.com/in/mart%C3%ADn-alejandro-maragoto-ba03727b"><img class="iconImg" src="images\linkedin.png" alt=""></a> See my linkedin <br>
-                <a href="https://github.com/MartinMaragoto"><img class="iconImg" src="images\github.png" alt=""></a> Visit my portfolio <br>
-                <a href="https://www.behance.net/martinmaragoto"><img class="iconImg" src="images\behance.png" alt=""></a> Check some projects <br>
-                <a href="https://www.instagram.com/martin.characters/"><img class="iconImg" src="images\insta.png" alt=""></a> Check my draws
-                
-            </p> 
-        </div>
-
-
-    </div>
-    <div class="fireflyBox2" id="about-me">
-        <h2 class="sub-title">About me</h2>
-        <button type="button" class="button" id="smallButton1">&#8595</button>
-        <div class="text-bubble" id="textAboutMe">
-    <!-- <div class="background-cover"> -->
-    <!-- </div> -->
-
-    
-
-</section>
-
-
-<!-- <div class="container">
-    <div class="uno"></div>
-    <div class="dos"></div>
-    <div class="tres"></div>
-    <div class="cuatro"></div>
-    <div class="cinco"></div>
-</div> -->
-    
-
-
-
-<!-- <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-    <div class="carousel-inner">
+  <!--Imagenes del carrusel-->
+  <div class="carousel-inner">
       <div class="carousel-item active">
-
-            <div class="fireflyBox2 d-block w-100"  id="personal-data">
-                <h2 class="sub-title">Personal Data</h2>
-                <button type="button" class="button" id="smallButton2">&#8595</button>
-            
-                <div class="text-bubble" id="textPersonalData">
-                    <p class="paragraph">
-                
-                    <img class="iconImg" src="images\doB2.jpg" alt=""> 34 years old <br>
-                    
-                    <img class="iconImg" src="images\street.png" alt=""> La Plata, Buenos Aires <br>
-                    
-                    <img class="iconImg" src="images\bandera.png" alt=""> Argentine <br>
-                    
-                    <img class="iconImg2" src="images\cellp2.png" alt=""> +54 9 (221) 6436425 <br>
-                    
-                    <img class="iconImg" src="images\arroba.png" alt=""> martinalearte@gmail.com </p> 
-                </div>
-            </div>
-
+          <img class="img-fluid" src="imagenes/recortada5.JPG" alt="Foto de un bebé riendo">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+          <img class="img-fluid" src="imagenes/Recortada-lautaro.JPG" alt="Foto de un bebé en sesión de interior">
       </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+     }<div class="carousel-item">
+          <img class="img-fluid" src="imagenes/paleta-rica.JPG" alt="Foto de un bebé comiendo un chupetín">
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
+ </div>
+</div>
+<!--FIN de Carrusel Bootstrap-->
 
+  <!--TEXTO de Como es una sesion-->
+          <div class="cuerpo-texto">
+              
+              <p class="subtitulo1">Recomendaciones para sacar fotos a los bebés</p> 
 
-
-
-<!-- 
-
-
-
-<p class="skills">Skills
-    • Professional Visual Artist, Character Designer and Illustrator
-    • English level: Bilingual
-    • Web Developer (HTML, CSS, SASS)
-    • Software experience: Photoshop, Illustrator, Visual Studio Code, Blender, Social media (Facebook, Instagram, Behance, etc)
-    • Experienced in Character Design, Digital and traditional art, Visual Design, Illustration, 3D character design and animation.
-</p>
-    
-<p class="degrees">Academic Degrees
-        • Bachelor’s Degree of Art in drawing. Faculty of Arts. National University of La Plata. Graduated in December 2011. Grade point average: 7,59
-        • Teacher’s Degree of Art in drawing. Faculty of Arts. National University of La Plata. Graduated in October 2013. Grade point average: 7,66
-        • Teacher’s Degree of Art in sculpture. Faculty of Arts. National University of La Plata. Graduated in February 2014. Grade point average: 7,68. 
-</p>
-    
-    
-<p class="english" >English certification
-        • FCE (First certificate in english) granted by Cambridge University in November 2011 (comprehensive reading and writing, translation skills, and fluent oral english communication).
-</p>
+              <p class="parrafo1"> Una sesión de fotos puede ser muy estresante para un bebé, así que te informamos:
+                    <div class="parrafo1">El tiempo estimado para sacarle fotos a un bebé es de entre 30 minutos a 1 hora, dependiendo de la edad que 
+                    tenga. Pasado ese tiempo, es probable que la sesión deba interrumpirse, ya sea para que el bebé descanse, tome 
+                    la leche, etc. </div>
+                    <div class="parrafo1">Es recomendable llevar a la sesión el juguete favorito del niño, una galleta, o cualquier objeto que 
+                    los padres sepan que puede tranquilizarlo. </div>
+                    <div class="parrafo1">Agendá la sesión para un día en el que no tengas mayores compromisos, ya que puede suceder que los tiempos 
+                    de la sesión se modifiquen. Por ej: Si al bebé le da sueño, quizás haya que hacer una pausa para dejarlo dormir 
+                    la siesta, o si se aburre, habrá que darle un descanso.</div>
+               </p>
+          </div>
   
-<p class="workExperience">Work experience
-        Length of service
-        • As a College Teacher: 5 years, from 2010 to 2015.
-        • As a Highschool Teacher: 7 years, from 2015 to the present.
-        • As a Primary Scholl Teacher: 7 years, from 2015 to the present. 
-</p>
-  -->
+  
+        </section> 
+<!--FIN de sección ¿COMO ES UNA SESION?-->
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<!--INICIO sección SOBRE MI-->
+<!--Imagen Nena-Leona-->
+<section>
+      <div class="leona-container">
+          <img class="lulu-ruge" src="imagenes/lulu-roar.png" alt="Beba rugiendo como una leona">
+      </div>
+      <!--Texto e imagen "sobre mi"-->
+<div id="yo" class="yo"> 
+  
+        <div  class="fotografa-container">
+        <img class="fotografa" src="imagenes/yo.jpg" alt="Imagen de la fotografa">
+        </div>
+
+        <div class="joven-texto">
+        <p class="titulo-seccion">Sobre mi</p> 
+        <p class="parrafo1">Hola! soy Camila, una joven fotógrafa platense recibida en la 
+          Escuela Bonaerense de Arte Fotográfico. Soy madre de dos hijos, y vivo intensamente 
+          cada momento con ellos.
+          Me apasiona el vibrante mundo de la fotografía y el caleidoscopio de energía, alegría y vida que tienen los niños.
+          Quiero capturar esos instantes brillantes de tu familia, para que sean recuerdos dorados. 
+          Si me elegís para compartirlos, quiero retratarlos tal cual son: espontáneos, reales, sin poses. 
+          Gracias por pasar por mi página! 
+        </p>
+      </div>
+
+</div>
+</section>
+<!--FIN de sección SOBRE MI-->
+
+<!--INICIO de sección GALERIA-->
+
+  
+  <div class="galeria-container">
+     <p id="galeria" class="titulo-seccion"> Galería de fotos</p>
+     <div class="galeria">
+
+       <a href="https://ibb.co/4fgmLGW"><img class="contenido-galeria" src="imagenes/recorte1.jpg" alt="nena sonriendo en sesión de interior">
+      </a>
+       <a href="https://ibb.co/xDmPkrW"><img class="contenido-galeria" src="imagenes/recortada3.jpg" alt="nene feliz en exterior">
+      </a>
+       <a href="https://ibb.co/VH5YBg0"><img class="contenido-galeria" src="./imagenes/recortada4.JPG" alt="nena sentada sobre un tronco">
+       </a>
+       <a href="https://ibb.co/JQTwLNr"><img class="contenido-galeria" src="imagenes/lulupeluches.jpg" alt="nena riendo entre los peluches">
+       </a>
+       <a href="https://ibb.co/chBVmYS"><img class="contenido-galeria" src="imagenes/retocada6.jpg" alt="nene en sesión de interior con fondo celeste">
+       </a>
+       <a href="https://ibb.co/Zmp4YXT"><img class="contenido-galeria" src="imagenes/recorte2.jpg" alt="nena sentada con un banquito">
+       </a>
+
+    </div>
+  </div>  
+  
+  <!--FIN de sección GALERIA-->
+
+<!--INICIO de sección RESERVA TU SESION-->
+<!--INICIO Footer-->
+<footer>
 
 
+  <section id="reserva" class="redes-container">
+    <p class="titulo-seccion"> Contactanos y reservá tu sesión hoy mismo</p>
+<!--Inicio formulario-->
+    <form action="/server/" method="POST" class="form">
+      <div class="form-row">     
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="nombre">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email">
+              <label for="message">Mensaje</label>
+              <textarea rows="8" name="message" id="message"></textarea> 
+              <button type="submit">Enviar</button>
 
- -->
+              
+          </div>
+      </form>
+      <!--Fin formulario-->
+      <!--Redes sociales-->
+      <div class="animation-container">
+        <a href="https://wa.me/5492215916577"> 
+        <img class="redes"  src="imagenes/WhatsApp-Logotipo-png.png" alt="Logo de whatsapp">
+      </a>
+
+        <a href="https://www.instagram.com/beinhorn_photography/">
+        <img class="redes" src="imagenes/logo-insta3.png" alt="Logo de instagram">
+       </a>
+      </div>
+
+    </section>
+    <!--FIN de Sección RESERVA TU SESION-->
+
+</footer>
+<!--FIN FOOTER-->
 
 
+<!--SCRIPT Bootstrap-->
+
+<!-- Option 1: Bootstrap Bundle with Popper 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+-->
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
 
+   
 
 </body>
+<!--FIN del BODY-->
 </html>
