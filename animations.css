@@ -1,6 +1,38 @@
 
 /*-----------Configuración de la animación----------------*/
 
+.fireflyBox {
+
+    width: 50vw;
+    height:fit-content;
+    margin: auto;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 3vw;
+    border: solid #778da9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, rgb(55, 52, 73) 0%,  rgb(56, 56, 122) 100%);
+    position: relative;
+
+
+}
+/*Background effect configuration*/
+.light1, .light2, .light3, .light4, .light5{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100%;
+    position: absolute;
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+    filter: blur(50px);
+}
+
 /*Animacion del pop-up*/
 .light1{
 
@@ -137,6 +169,17 @@
     top: 30vw;
     left: -10vw;
     opacity: 0%;
+}
+
+.matrix {
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    background-image: url(images/matrixdos.gif);
+    top: -1vw;
+    left: 0vw;
+    opacity: 0%;
+    pointer-events: none;
 }
 
 /* FIN de la configuración de la animación*/

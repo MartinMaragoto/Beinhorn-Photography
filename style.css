@@ -78,23 +78,6 @@ body {
 }
 
 
-
-
-/*Background effect configuration*/
-.light1, .light2, .light3, .light4, .light5{
-    width: 8vw;
-    height: 8vw;
-    border-radius: 100%;
-    position: absolute;
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
-    filter: blur(50px);
-    
-
-
-}
 .button{
   align-items: center;
   appearance: none;
@@ -172,16 +155,7 @@ body {
         
      }
 
-.matrix {
-    width: 50vw;
-    height: 50vw;
-    position: absolute;
-    background-image: url(images/matrixdos.gif);
-    top: -1vw;
-    left: 0vw;
-    opacity: 0%;
-    pointer-events: none;
-}
+
 
 
 /*-------------------------------------------------------------------------------------------------------------------*/
@@ -195,7 +169,7 @@ body {
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(16, 0, 87) 100%);
     border: solid #778da9 3px;
     border-radius: 3vw;
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     justify-content: center;

@@ -6,6 +6,7 @@ const chooseSection = document.getElementById ('choose-section')
 
 
 
+
 function enterPage (){
 popUp.style.display = 'none'
 blackCourtain.style.display = 'none'
@@ -23,6 +24,7 @@ const developerButton = document.getElementById ('btn3')
 const backgroundPhoto= document.getElementById('background')
 const header = document.getElementById('main-header')
 const dataSection = document.getElementById('data-section')
+const backButton= document.getElementById('backButtonContainer')
 
 //Click en design skills
 function ChooseDesign (){
@@ -42,6 +44,7 @@ function ChooseDeveloper (){
 chooseSection.style.display = 'none'
 header.style.display = 'none'
 backgroundPhoto.classList.add ('developerBody')
+backButton.style.display = 'flex'
 
 const windowWidth = window.innerWidth
 if (windowWidth <=668) {
