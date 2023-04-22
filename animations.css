@@ -1,0 +1,613 @@
+
+/*-----------Configuración de la animación----------------*/
+
+/*Animacion del pop-up*/
+.light1{
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 20px rgb(255, 255, 255);
+    top: -5vw;
+    left:-6vw;
+}
+
+.light2 {
+    background-color: rgb(173, 150, 255);
+    box-shadow: 3px 3px 20px  rgb(150, 225, 255);
+    top: 10vw;
+    left: 35vw;
+}
+.light3{
+    background-color: rgb(160, 201, 255);
+    box-shadow: 3px 3px 20px rgb(160, 201, 255);
+    top: 17vw;
+    left: 35vw;
+
+}
+.light4{
+    background-color: rgb(111, 138, 255);
+    box-shadow: 3px 3px 20px  rgb(145, 165, 255);
+    top: 30vw;
+    left: 5vw;
+
+}
+.light5{
+    background-color: aqua;
+    box-shadow: 3px 3px 20px aqua;
+    top: 30vw;
+    left: 32vw;
+
+}
+
+/*---LINEAS NEGRAS---*/
+.linea1, .linea2{
+
+    background-color: black;
+    height: 60vw;
+    width: 0.5vw;
+    position: absolute;
+    opacity: 0%;
+    
+}
+/* Linea vertical derecha */
+.linea1 {
+
+    top: 0vw;
+    left: 41vw;
+
+}
+/* Linea vertical izquierda */
+.linea2{
+
+    top: 0vw;
+    left: 4vw;
+
+}
+/* Linea horizontal izquierda*/
+.linea3{
+    background-color: black;
+    height: 0.5vw;
+    width: 9vw;
+    position: absolute;
+    top: -1vw;
+    left: 0vw;
+    opacity: 0%;
+} 
+/*linea horizontal derecha*/
+.linea4{
+    background-color: black;
+    height: 0.5vw;
+    width: 80vw;
+    position: absolute;
+    top: 5.5vw;
+    left: 33vw;
+    opacity: 0%;
+} 
+/* linea horizontal solo para mobil */
+.linea5 {
+
+    background-color: black;
+    height: 0.5vw;
+    width: 9vw;
+    position: absolute;
+    top: 35vw;
+    left: -9vw;
+    opacity: 0%;
+}
+
+/*FORMAS DE COLORES */
+
+.figura1{
+
+    background-color: blue;
+    height: 5vw;
+    width: 4.9vw;
+    position: absolute;
+    left: 9vw;
+    top: 7vw;
+    opacity: 0%;
+}
+.figura2{
+
+    background-color: rgb(255, 0, 0);
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    top: 9vw;
+    left: 30vw;
+    opacity: 0%;
+}
+/* cuadrado amarillo derecha */
+.figura3{
+
+    background-color: rgb(238, 255, 0);
+    height: 6vw;
+    width: 8vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    opacity: 0%;
+}
+/* cuadrado amarillo izquierda */
+.figura4{
+
+    background-color: rgb(238, 255, 0);
+    height: 9vw;
+    width: 8vw;
+    position: absolute;
+    top: 30vw;
+    left: -10vw;
+    opacity: 0%;
+}
+
+/* FIN de la configuración de la animación*/
+
+
+/*ANIMACIONES*/
+
+
+@keyframes Lightbubbles {
+
+    0% {
+        opacity: 0%;
+                
+    }
+            
+    30% {
+         opacity: 100%;
+        transform: translateX(10vw);
+            
+    }
+    50% {
+         opacity: 100%;
+        
+    }
+    100% {
+       opacity: 0%;
+            transform: translateX(10vw);
+    }
+    }
+.light1 {
+
+    animation-name: Lightbubbles;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Lightbubbles2 {
+
+    0% {
+        opacity: 0%;
+                
+    }
+            
+    30% {
+         opacity: 100%;
+        transform: translateX(-20vw);
+            
+    }
+    50% {
+         opacity: 100%;
+         transform: translateY(3vw);
+        
+    }
+    100% {
+       opacity: 0%;
+            transform: translateX(-20vw);
+    }
+    }
+.light2 {
+
+    animation-name: Lightbubbles2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Lightbubbles3 {
+
+    0% {
+        opacity: 0%;
+                
+    }
+            
+    30% {
+         opacity: 100%;
+         transform: translateY(-10vw);
+        
+            
+    }
+    50% {
+         opacity: 100%;
+         transform: translateX(-30vw);
+        
+    }
+    80% {
+        opacity: 100%;
+        transform: translateX(-20vw);
+    }
+    100% {
+       opacity: 0%;
+            
+    }
+    }
+.light3 {
+
+    animation-name: Lightbubbles3;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Lightbubbles4 {
+
+    0% {
+        opacity: 0%;
+                
+    }
+            
+    30% {
+         opacity: 100%;
+         transform: translateY(-15vw);
+        
+            
+    }
+    50% {
+         opacity: 100%;
+         transform: translateY(10vw) translateX(5vw);
+
+        
+    }
+    80% {
+        opacity: 100%;
+        transform: translateX(4vw);
+    }
+    100% {
+       opacity: 0%;
+            
+    }
+    }
+.light4 {
+
+    animation-name: Lightbubbles4;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Lightbubbles5 {
+
+    0% {
+        opacity: 0%;
+                
+    }
+    10% {
+        opacity: 50%;
+        
+        
+           
+   }
+    30% {
+         opacity: 60%;
+         transform: translateY(-30vw) translateX(-15vw);
+            
+    }
+    50% {
+         opacity: 80%;
+         transform: translateY(-20vw) translateX(-25vw);
+        
+    }
+    80% {
+        opacity: 100%;
+        transform: translateY(-10vw) translateX(-30vw);
+        
+    }
+    100% {
+       opacity: 0%;
+       transform: translateY(0vw) translateX(-5vw);
+    }
+    }
+.light5 {
+
+    animation-name: Lightbubbles5;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+/* Linea vertical derecha */
+@keyframes Linea1 {
+
+    0% {
+        opacity: 0%;
+        
+    }
+    
+    30% {
+        opacity: 100%;
+        transform: translateX(-8vw);
+       
+        }
+    50% {
+        opacity: 100%;
+
+    }
+    100% {
+        opacity: 0%;
+        transform: translateX(-8vw);
+    }
+    }
+
+.linea1{
+
+    animation-name: Linea1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+
+    /* Linea vertical izquierda */
+    @keyframes Linea2 {
+
+        0% {
+            opacity: 0%;
+                    
+        }
+                
+        30% {
+             opacity: 100%;
+            transform: translateX(4.5vw);
+                
+        }
+        50% {
+             opacity: 100%;
+            
+        }
+        100% {
+           opacity: 0%;
+                transform: translateX(4.5vw);
+        }
+}
+
+.linea2{
+
+    animation-name: Linea2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+
+/* Linea horizontal */
+    @keyframes Linea3 {
+
+        0% {
+            opacity: 0%;
+            
+        }
+    
+        30% {
+            opacity: 100%;
+            transform: translateY(6vw);
+           
+            }
+        50% {
+            opacity: 100%;
+    
+        }
+        100% {
+            opacity: 0%;
+            transform: translateY(6vw);
+        }
+        }
+        
+.linea3{
+    
+    animation-name: Linea3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+        }
+
+        
+    @keyframes Linea4 {
+
+            0% {
+                opacity: 0%;
+                
+            }
+        
+            30% {
+                opacity: 100%;
+                transform: translateY(6vw);
+               
+                }
+            50% {
+                opacity: 100%;
+        
+            }
+            100% {
+                opacity: 0%;
+                transform: translateY(6vw);
+            }
+            }
+            
+.linea4{
+        
+    animation-name: Linea4;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+            }
+@keyframes Linea5 {
+
+                0% {
+                    opacity: 0%;
+                    
+                }
+            
+                30% {
+                    opacity: 100%;
+                    transform: translateX(4vw);
+                   
+                    }
+                50% {
+                    opacity: 100%;
+            
+                }
+                100% {
+                    opacity: 0%;
+                    transform: translateX(4vw);
+                }
+                }
+                
+.linea5{
+            
+        animation-name: Linea5;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+                }
+
+@keyframes Bluesquare {
+
+    0% {
+        opacity: 0%;
+        
+    }
+    
+    30% {
+        opacity: 100%;
+        transform: translateX(19.1vw) translateY(-7vw);
+       
+        }
+    50% {
+        opacity: 100%;
+
+    }
+    100% {
+        opacity: 0%;
+        transform: translateX(19.1vw) translateY(-7vw);
+    }
+    }
+    
+
+.figura1{
+
+    animation-name: Bluesquare;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes Redsquare {
+
+    0% {
+        opacity: 0%;
+        
+    }
+    
+    30% {
+        opacity: 100%;
+        transform: translateX(-27.5vw) translateY(-3.5vw);
+       
+        }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+        transform: translateX(-27.5vw) translateY(-3.5vw);
+        
+    }
+    }
+.figura2{
+
+    animation-name: Redsquare;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Yellowsquare {
+
+    0% {
+        opacity: 0%;
+        
+    }
+    
+    30% {
+        opacity: 100%;
+        transform: translateX(33.5vw) translateY(5.5vw);
+       
+        }
+    50% {
+        opacity: 100%;
+
+    }
+    100% {
+        opacity: 0%;
+        transform: translateX(33.5vw) translateY(5.5vw);
+    }
+    }
+
+
+.figura3{
+
+    animation-name: Yellowsquare;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    }
+
+
+@keyframes Yellowsquare2 {
+
+        0% {
+            opacity: 0%;
+            
+        }
+        
+        30% {
+            opacity: 100%;
+            transform: translateX(5.5vw) translateY(5.5vw);
+           
+            }
+        50% {
+            opacity: 100%;
+    
+        }
+        100% {
+            opacity: 0%;
+            transform: translateX(5.5vw) translateY(5.5vw);
+        }
+        }
+    
+    
+.figura4{
+    
+        animation-name: Yellowsquare2;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        }
+
+
+@keyframes Greenmatrix {
+
+                    0% {
+                        opacity: 0%;
+                        z-index: 1;
+                        
+                    }
+                
+                    50% {
+                        opacity: 50%;
+                        z-index: 1;
+                
+                    }
+                    100% {
+                        opacity: 0%;
+                        
+                    }
+                    }
+                
+.matrix {
+    animation-name: Greenmatrix;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+                    
+                    }
