@@ -164,7 +164,7 @@ body {
 
 /*--Botón Back----------------*/
 
-#backButtonContainer{
+#backButtonContainer, #videoButtonContainer{
 
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(16, 0, 87) 100%);
     border: solid #778da9 3px;
@@ -178,12 +178,12 @@ body {
     margin: 2vw;
     padding: 0.5vw;
 }
-#backButton {
+#backButton, #videoButton {
 
     float: block-start;
     position: relative;
 }
-#backButtonText{
+#backButtonText, #videoButtonText{
 
     color:white;
 

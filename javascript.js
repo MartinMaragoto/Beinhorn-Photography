@@ -25,6 +25,7 @@ const backgroundPhoto= document.getElementById('background')
 const header = document.getElementById('main-header')
 const dataSection = document.getElementById('data-section')
 const backButton= document.getElementById('backButtonContainer')
+const videoButton= document.getElementById('videoButtonContainer')
 
 //Click en design skills
 function ChooseDesign (){
@@ -45,6 +46,7 @@ chooseSection.style.display = 'none'
 header.style.display = 'none'
 backgroundPhoto.classList.add ('developerBody')
 backButton.style.display = 'flex'
+videoButton.style.display = 'flex'
 
 const windowWidth = window.innerWidth
 if (windowWidth <=668) {

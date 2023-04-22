@@ -89,16 +89,16 @@
 
     .photobackground{
 
-        height: 50vw;
-        width: 30%;
+        height: 45vw;
+        width: 35%;
         left: 35%;
     
     }
     .fotoperfil {
 
         width: 60%;
-        height: 45%;
-        margin: 2vw 6vw;
+        height: 60%;
+        margin: 2vw 7vw;
     }
 } 
 
