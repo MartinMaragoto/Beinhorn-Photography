@@ -38,7 +38,10 @@
         width: 18vw;
         height: 10vw;
     }
+    .span2 {
 
+        font-size: 5vw;
+    }
     h3 {
 
         font-size: 14px;

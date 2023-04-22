@@ -313,39 +313,3 @@ span {
     height: 7%;
     margin: 1.2vw 1.8vw 0vw 0vw;
 }
-
-/* .container {
-
-display: flex;
-flex-wrap: nowrap;
-overflow-x: scroll;
-scroll-snap-type: x mandatory; 
-}
-
-.uno {
-    background-color: #fff;
-}
-
-.dos {
-    background-color:aqua;
-}
-
-.tres {
-    background-color: #fff;
-}
-
-.cuatro {
-    background-color:aqua;
-}
-.cinco {
-    background-color: #3ce065;
-}
-.uno, .dos, .tres, .cuatro, .cinco {
-
-flex: 1 0 auto;
-height: 200px;
-width: 200%;
-margin: 10px;
-scroll-snap-align: center;
-
-} */
